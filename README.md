@@ -70,8 +70,8 @@ pnpm add github:repentkun929/dsh-media-search
       name: 'dsh-media-search'
 ```
 
-重启 DSH 后，模型工具列表里会出现 6 个 `bili_*` 工具（默认再带上 `bili_video_transcript`
-共 7 个），GUI 里会显示卡片式结果。
+重启 DSH 后，模型工具列表里会出现 7 个 `bili_*` 工具（6 个基础工具 + `bili_video_transcript`），
+GUI 里会显示卡片式结果。
 
 ---
 
@@ -178,7 +178,7 @@ pnpm add github:repentkun929/dsh-media-search
 ```bash
 pnpm install
 pnpm run typecheck   # 两个 tsconfig 都过
-pnpm test            # 80 个测试（契约 40 + 卡片渲染 29 + 转写 10）
+pnpm test            # 80 个测试（契约 41 + 卡片渲染 29 + 转写 10）
 pnpm run build       # 构建 + 产物自检
 pnpm run smoke       # 真网络联调（需要能访问 bilibili）
 ```
