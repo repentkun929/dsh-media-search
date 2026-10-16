@@ -1,0 +1,63 @@
+{
+  "code": 0,
+  "data": {
+    "View": {
+      "bvid": "BV1GJ411x7h7",
+      "aid": 80433022,
+      "cid": 137649199,
+      "title": "【官方 MV】Never Gonna Give You Up - Rick Astley",
+      "tname": "",
+      "pubdate": 1577835803,
+      "duration": 213,
+      "copyright": 1,
+      "pic": "http://i1.hdslb.com/bfs/archive/5242750857121e05146d5d5b13a47a2a6dd36e98.jpg",
+      "videos": 1,
+      "desc": "-",
+      "stat": {
+        "view": 107248258,
+        "danmaku": 150762,
+        "reply": 237559,
+        "favorite": 1553675,
+        "coin": 1283311,
+        "like": 2953714,
+        "share": 499442
+      },
+      "owner": {
+        "mid": 1000000,
+        "name": "up_0001",
+        "face": "https://i2.hdslb.com/bfs/face/6bc95d0670863d36bf9167a37b825c39ce258506.jpg"
+      },
+      "pages": [
+        {
+          "cid": 137649199,
+          "page": 1,
+          "part": "Never Gonna Give You Up - Rick Astley",
+          "duration": 213
+        }
+      ]
+    },
+    "Card": {
+      "card": {
+        "mid": 1000000,
+        "name": "up_0001"
+      }
+    },
+    "Tags": [
+      {
+        "tag_name": "tag_placeholder"
+      },
+      {
+        "tag_name": "tag_placeholder"
+      },
+      {
+        "tag_name": "tag_placeholder"
+      }
+    ],
+    "Related": [],
+    "Reply": {
+      "page": {
+        "count": 237559
+      }
+    }
+  }
+}

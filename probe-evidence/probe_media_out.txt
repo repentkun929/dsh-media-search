@@ -1,0 +1,51 @@
+=== 1. player/wbi/v2 匿名（不签名）===
+  BV1sHa966Eu6 http=200 code=-400 msg=请求错误
+  BV1ZRJk6PEq8 http=200 code=-400 msg=请求错误
+
+=== 2. player/wbi/v2 带 aid+真 cid ===
+  aid=117357364253026 cid=42322496836 http=200 code=0
+  subtitles.length=0
+  subtitle: {"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+
+=== 3. player/v2（老接口，无 wbi）===
+  ?aid=117357364253026&cid=42322496836 -> http=200 code=0 len=3665
+    subtitles.length=0
+    {"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+  ?bvid=BV1sHa966Eu6&cid=42322496836 -> http=200 code=0 len=3664
+    subtitles.length=0
+    {"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+
+=== 4. player/playurl（判断能否自建 ASR）===
+  qn=1080 http=200 code=0 keys=from,result,message,quality,format,timelength,accept_format,accept_description,accept_quality,video_codecid,seek_param,seek_type,dash,support_formats,high_format,last_play_time,last_play_cid,view_info,play_conf,cur_language,cur_production_type,auto_qn_resp
+    dash.audio streams=3 first=https://xy111x6x227x8xy.mcdn.bilivideo.cn:8082/v1/resource/upgcxcode/36/68/42322
+  qn=360 http=200 code=0 keys=from,result,message,quality,format,timelength,accept_format,accept_description,accept_quality,video_codecid,seek_param,seek_type,dash,support_formats,high_format,last_play_time,last_play_cid,view_info,play_conf,cur_language,cur_production_type,auto_qn_resp
+    dash.audio streams=3 first=https://xy111x6x227x8xy.mcdn.bilivideo.cn:8082/v1/resource/upgcxcode/36/68/42322
+
+=== 5. AI 字幕 / 内容总结相关接口 ===
+  /x/player/wbi/v2/ai/subtitle -> http=404 len=5633 body=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> <html lang="zh-cn">  <head>     <meta http-equiv="Page-E
+  /x/web-interface/view/conclusion/get -> http=200 len=41 body={"code":-403,"message":"访问权限不足","ttl":1} 
+  /x/player/ai/subtitle -> http=404 len=5633 body=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> <html lang="zh-cn">  <head>     <meta http-equiv="Page-E
+  /x/web-interface/archive/desc -> http=200 len=84 body={"code":0,"message":"OK","ttl":1,"data":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~"}
+
+=== 6. UP 主投稿列表 space/arc/search ===
+  /x/series/recArchivesByKeywords?mid=431073645&keywords=原神&ps=5 -> http=200 len=2896 code=0 msg=0
+    data keys: archives,page
+  /x/polymer/web-space/searches_archive?keyword=&mid=431073645&ps=5&pn=1 -> http=404 len=5633 code=null msg=null
+  /x/space/wbi/arc/search?mid=431073645&ps=5&pn=1 -> http=200 len=108 code=-352 msg=风控校验失败
+  /x/space/arc/search?mid=431073645&ps=5&pn=1 -> http=412 len=3286 code=null msg=null
+
+=== 7. 合集（ugc_season）字段 ===
+  ugc_season.id=7230403 title=终末地 sections=1
+  -> 可做「合集内视频列表」
+
+=== 8. popular / ranking / card ===
+  popular?ps=5 -> http=200 code=0 n=5
+  ranking rid=0 -> http=200 code=0 n=100
+  card?mid=431073645 -> http=200 code=0 fans=n/a
+
+=== 9. 抖音热榜 + 链接解析复测 ===
+  hotsearch -> http=200 n=50 active_time=2026-10-15 16:32:37
+    #3 中朝新鸭绿江大桥今日开通 (hot=12111059)
+    #0 抖音商城双11超级补贴来啦 (hot=11439373)
+    #0 我国出口动能持续向新向优 (hot=11206216)
+  v.douyin.com/<id> -> http=200 (302 到 www.douyin.com 则解析废)

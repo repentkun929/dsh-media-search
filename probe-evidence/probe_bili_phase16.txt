@@ -1,0 +1,54 @@
+### A. 180KB view 的差异（BV1sHa966Eu6 有 ugc_season）
+  BV1sHa966Eu6 len=180907 ugc_season={"id":2235437,"title":"鸣潮","cover":"https://archive.biliimg.com/bfs/archive/c0dfd17e938e11a076e326720618ddd007a31b25.png","mid":6014992,"intro":"","sign_state":0,"attribute":132,"stat":{"season_id":22
+  BV1FhpX6GE1i len=2116 ugc_season=undefined
+  -> 长度差异来自 ugc_season/合集/分P 元数据，不影响单视频元数据可用性
+
+### B. wbi 签名算法验证：故意用错 mixin key 应失败
+  正确 key: http=412 code=HTML msg=
+  错误 key: http=412 code=HTML msg=
+
+### C. nav 的 wbi_img 是否稳定可匿名获取（5 次）
+  [1] code=-101 img=7cd084941338484aae1ad9425b84077c.png sub=4932caff0ff746eab6f01bf08b70ac45.png
+  [2] code=-101 img=7cd084941338484aae1ad9425b84077c.png sub=4932caff0ff746eab6f01bf08b70ac45.png
+  [3] code=-101 img=7cd084941338484aae1ad9425b84077c.png sub=4932caff0ff746eab6f01bf08b70ac45.png
+  [4] code=-101 img=7cd084941338484aae1ad9425b84077c.png sub=4932caff0ff746eab6f01bf08b70ac45.png
+  [5] code=-101 img=7cd084941338484aae1ad9425b84077c.png sub=4932caff0ff746eab6f01bf08b70ac45.png
+
+### D. 最终字段清单验证（纯 UA）
+--- search/all/v2 video item（UA only）---
+    标题: 【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧
+    UP主: 叫我棉被
+    UP主mid: 6014992
+    UP头像: https://i1.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg
+    播放量: 1271989
+    弹幕数: 5025
+    评论数: 10897
+    收藏: 11703
+    点赞: 40540
+    时长: 21:24
+    发布时间: 2026-09-30T01:28:04.000Z
+    封面: https://i2.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg
+    bvid: BV1sHa966Eu6
+    aid: 117357364253026
+    链接: https://www.bilibili.com/video/BV1sHa966Eu6
+    分类: 手机游戏
+    标签: 鸣潮心,岁主,今汐,同奏,鸣潮,养成,心月狐,教程攻略,漂泊者,细节
+    简介: 本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~
+
+--- view（UA only）---
+    标题: 【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧
+    简介: 本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~
+    播放/弹幕/评论/收藏/硬币/分享/点赞: 1271989/5025/10897/11703/12991/2656/40563
+    UP主: 叫我棉被 (mid=6014992) 头像: https://i1.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg
+    发布时间: 2026-09-30T01:28:04.000Z
+    时长(秒): 1284 分P数: 1
+    封面: http://i1.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg
+    分区: tid_v2=2064
+    链接: https://www.bilibili.com/video/BV1sHa966Eu6
+
+--- card（UA only）---
+    名称: 叫我棉被
+    粉丝: 2081611 关注: 1803 投稿数: 3006 获赞: 28132375
+    等级: 6
+    头像: https://i1.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg
+    签名: 团队型手游攻略/二创UP主~想真正的活着，就不要去做轻松简单的选择。感谢大家的关注和支持！商务合作/内容合作，请私信获取

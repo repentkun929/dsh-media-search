@@ -1,0 +1,48 @@
+=== 1. search/all/v2 匿名（纯 UA）===
+  page=1 http=200 code=0 len=29863 ms=365 next=2 numResults=1000 numPages=50
+    groups: tips:0 | brand_ad:0 | esports:0 | activity:0 | web_game:0 | card:0 | media_bangumi:0 | media_ft:0 | bili_user:0 | user:0 | star:0 | video:20
+  page=2 http=200 code=0 len=29753 ms=328 next=3 numResults=1000 numPages=50
+    groups: tips:0 | brand_ad:0 | esports:0 | activity:0 | web_game:0 | card:0 | media_bangumi:0 | media_ft:0 | bili_user:0 | user:0 | star:0 | video:20
+  +search_type=video http=200 code=0 len=29645 groups: tips:0 | brand_ad:0 | esports:0 | activity:0 | web_game:0 | card:0 | media_bangumi:0 | media_ft:0 | bili_user:0 | user:0 | star:0 | video:20
+  &order=totalrank -> http=200 code=0 len=29831
+  &order=click -> http=200 code=0 len=29971
+  &order=pubdate -> http=200 code=0 len=29969
+
+=== 2. view?bvid= 匿名 ===
+  BV1sHa966Eu6 http=200 code=0 len=180907
+    title=【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧
+    author=叫我棉被 mid=6014992
+    play=1272080 like=40566 reply=10898 coin=12991 fav=11704 dm=5025
+    duration=1284s pubdate=1790731684 pages=1 tid=2064
+    season=鸣潮
+  BV1FhpX6GE1i http=200 code=0 len=2116
+    title=【原神】判测胜券本征 活动攻略/预测/原神7.1
+    author=你的影月月 mid=431073645
+    play=758438 like=28369 reply=7375 coin=2082 fav=3491 dm=372
+    duration=42s pubdate=1791778896 pages=1 tid=2064
+    season=none
+
+=== 3. ranking / popular 匿名 ===
+  ranking/v2 http=200 code=0 len=147029 list=100
+    keys: aid,videos,tid,tname,copyright,pic,title,pubdate,ctime,desc,state,duration,mission_id,rights,owner,stat,dynamic,cid,dimension,season_id
+    sample: title=苏联版“空中监狱”是什么？【神奇组织55】 owner=小约翰可汗 play=2113719 bvid=BV1Cgpd6pEBR
+  /x/popular http=404 code=null len=5633 list=0
+  web-interface/popular http=200 code=0 len=30261 list=20
+
+=== 4. archive/related + card ===
+  related http=200 code=0 len=57355 n=40
+  card http=200 code=0 fans=2081617 name=叫我棉被
+
+=== 5. reply/main 匿名 ===
+  reply/main http=200 code=0 len=197408 n=20
+    keys: rpid,oid,type,mid,root,parent,dialog,count,rcount,state,fansgrade,attr,ctime,mid_str,oid_str,rpid_str
+    sample: like=130 member=萌新在线提问 msg=滑坡神游，第一个小保底歪黑手，第二个大保底出的心第三个小保底歪卡卡罗[喜欢][喜欢][喜欢]现在已经垫了60抽了估计要吃
+
+=== 6. search/all/v2 的 user 组（匿名）===
+  bili_user: 1
+  video: 20
+    user keys: type,mid,uname,usign,fans,videos,upic,face_nft,face_nft_type,verify_info,level,gender,is_upuser,is_live,room_id,res,official_verify,hit_columns
+    user sample: {"type":"bili_user","mid":6014992,"uname":"叫我棉被","usign":"团队型手游攻略/二创UP主~想真正的活着，就不要去做轻松简单的选择。感谢大家的关注和支持！商务合作/内容合作，请私信获取联系方式。 ","fans":2081617,"videos":3005,"upic":"//i2.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg","face_nft":0,"face_nft_type":0,"verify_info":"","level":6,"gender":3,"is_upuser":1,"is_live":0,"room_id":944865,"res":[{"aid":117443431239982,"bvid":"BV1ZRJk6PEq8","ti
+
+=== 7. all/v2 纯 UA 连续 12 次稳定性 ===
+  ok=12 banned=0

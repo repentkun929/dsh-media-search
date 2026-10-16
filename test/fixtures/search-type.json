@@ -1,0 +1,72 @@
+{
+  "code": 0,
+  "data": {
+    "seid": "0",
+    "page": 1,
+    "pagesize": 20,
+    "numResults": 1000,
+    "numPages": 50,
+    "result": [
+      {
+        "type": "video",
+        "aid": 900000,
+        "bvid": "BV12XpU66Eid",
+        "title": "还以为是科学养<em class=\"keyword\">猫</em>，原来是东亚家庭啊",
+        "author": "up_0001",
+        "mid": 1000000,
+        "play": 18798,
+        "video_review": 59,
+        "review": 72,
+        "favorites": 121,
+        "like": 1785,
+        "duration": "8:9",
+        "pubdate": 1700000000,
+        "typename": "喵星人",
+        "tag": "秋日动物园,狸花猫,生活记录,可爱,喵星人",
+        "pic": "//i0.hdslb.com/bfs/archive/e96dc2a1e65151b161831a88fd6e2bf37470dbec.jpg",
+        "description": "-",
+        "arcurl": "http://www.bilibili.com/video/av117441199871995"
+      },
+      {
+        "type": "video",
+        "aid": 900001,
+        "bvid": "BV1XyYDzcEup",
+        "title": "<em class=\"keyword\">猫</em>界特辑：中华田园<em class=\"keyword\">猫</em>五虎上将闪亮登场，个个是狠角儿",
+        "author": "up_0002",
+        "mid": 1000001,
+        "play": 9079615,
+        "video_review": 6563,
+        "review": 4943,
+        "favorites": 287213,
+        "like": 104943,
+        "duration": "21:24",
+        "pubdate": 1700086400,
+        "typename": "动物二创",
+        "tag": "五虎上将,田园猫,动物解说,动物科普,一代人有一代人的动物世界",
+        "pic": "//i1.hdslb.com/bfs/archive/d0ec3243257e1b14e212e2cbb30512fe9587fa15.jpg",
+        "description": "",
+        "arcurl": "http://www.bilibili.com/video/av115064388523039"
+      },
+      {
+        "type": "video",
+        "aid": 900002,
+        "bvid": "BV1MiHo6hE4u",
+        "title": "臭<em class=\"keyword\">猫</em>成功狙击老祖！",
+        "author": "up_0003",
+        "mid": 1000002,
+        "play": 2199915,
+        "video_review": 121,
+        "review": 73,
+        "favorites": 4954,
+        "like": 3786,
+        "duration": "1:02:33",
+        "pubdate": 1700172800,
+        "typename": "手机游戏",
+        "tag": "地铁逃生,松下千秋,和平精英,吃鸡",
+        "pic": "//i1.hdslb.com/bfs/archive/a0122602d02db22b644b6c79b29df97480a00cf7.jpg",
+        "description": "臭猫成功狙击老祖！",
+        "arcurl": "http://www.bilibili.com/video/av117390448792022"
+      }
+    ]
+  }
+}

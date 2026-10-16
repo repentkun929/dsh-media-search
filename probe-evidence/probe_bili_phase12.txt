@@ -1,0 +1,19 @@
+### A. search/type 纯 UA 连续 20 次
+  ok=4 banned=16 成功率=20%
+  .X.XXXXXX.XXXXXXXX.X
+
+### B. 对比：search/all/v2 连续 20 次纯 UA
+  ok=20 banned=0 成功率=100%
+
+### C. search/type 带 buvid3 cookie 连续 10 次
+  ok=8 banned=2 成功率=80%
+
+### D. 找 CC 字幕 UGC 视频（试更精准的词）
+  Lecture 1: 检查 12 个，命中 0
+  crash course 中文字幕: 检查 12 个，命中 0
+  可汗学院 公开课: 检查 12 个，命中 0
+  mit 公开课: 检查 12 个，命中 0
+  耶鲁 公开课 中文字幕: 检查 12 个，命中 0
+  纪录片 阿波罗 登月: 检查 12 个，命中 0
+
+!!! 全都没找到 CC 字幕 UGC 视频

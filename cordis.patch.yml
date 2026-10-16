@@ -1,0 +1,12 @@
+# dsh-media-search bundle patch
+#
+# 供 `dsh plugin --profile web add <路径>` 自动挂载（Loader bundle 层）；
+# 手动挂载的用户也可在 profiles/web/cordis.patch.yml 自行添加 insert 条目。
+#
+# 注意：本条目**没有** config 字段，透传进来就是 undefined。
+# 因此 src/index.ts 必须重新导出 Config（schemastery 会把 undefined 规范成带默认值的对象），
+# 否则 apply(ctx, undefined) 读 config.* 会抛进 ctx.effect 被静默吞掉，
+# 症状是「插件装了但模型工具列表里一个 media_* / bili_* 都没有」。
+- insert:
+    - id: dsh-media-search
+      name: 'dsh-media-search'

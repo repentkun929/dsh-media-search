@@ -1,0 +1,73 @@
+### A. 从 popular（热门）扫 CC 字幕
+popular 条数=20
+    - pop BV1gHp46pER8 字幕数=0 need_login=false
+    - pop BV19ZJ66sEYZ 字幕数=0 need_login=false
+    - pop BV1gEps62E1e 字幕数=0 need_login=false
+    - pop BV1Nppn6tEhW 字幕数=0 need_login=true
+    - pop BV1d4p26SExE 字幕数=0 need_login=true
+    - pop BV1d4p26SE5n 字幕数=0 need_login=false
+    - pop BV1Mopr6REu3 字幕数=0 need_login=false
+    - pop BV1xZWw6yEix 字幕数=0 need_login=true
+    - pop BV1fjpy6UEiN 字幕数=0 need_login=true
+    - pop BV1Pupy6sExt 字幕数=0 need_login=true
+    - pop BV1kZp26bEzS 字幕数=0 need_login=true
+    - pop BV19gp16kEAV 字幕数=0 need_login=false
+    - pop BV1tvp96tEZN 字幕数=0 need_login=true
+    - pop BV15pWA6tEYd 字幕数=0 need_login=true
+    - pop BV1YGp163E4j 字幕数=0 need_login=false
+    - pop BV1yFWA6VENt 字幕数=0 need_login=false
+    - pop BV1VpWA6tE8P 字幕数=0 need_login=true
+    - pop BV1Z6pC65Ek9 字幕数=0 need_login=true
+    - pop BV19hpy6uEsK 字幕数=0 need_login=true
+    - pop BV18Bpd6PEu3 字幕数=0 need_login=true
+
+### B. 从 ranking 全站榜扫 CC 字幕
+ranking 条数=100
+    - rank BV1Cgpd6pEBR 字幕数=0 need_login=true
+    - rank BV1Sap968Efp 字幕数=0 need_login=false
+    - rank BV1mopE6xEqv 字幕数=0 need_login=false
+    - rank BV1VVpo6gEYg 字幕数=0 need_login=true
+    - rank BV1Bjp966EA8 字幕数=0 need_login=false
+    - rank BV1Jjpg6QEkh 字幕数=0 need_login=true
+    - rank BV1XupR6NEeo 字幕数=0 need_login=true
+    - rank BV1fspq6cEty 字幕数=0 need_login=true
+    - rank BV1fYpn6SEk9 字幕数=0 need_login=false
+    - rank BV1tvp96tEZN 字幕数=0 need_login=true
+    - rank BV1uYWA6DEVV 字幕数=0 need_login=true
+    - rank BV1kKWA6uEyr 字幕数=0 need_login=true
+    - rank BV1qPpo6jEqk 字幕数=0 need_login=false
+    - rank BV1uaWA6HESq 字幕数=0 need_login=true
+    - rank BV132pr6aEXS 字幕数=0 need_login=true
+    - rank BV1CapR6JEAM 字幕数=0 need_login=true
+    - rank BV1W8pp6hEHs 字幕数=0 need_login=true
+    - rank BV1cApB6NEPq 字幕数=0 need_login=true
+    - rank BV149WF6zEw2 字幕数=0 need_login=false
+    - rank BV1Eapz6PErV 字幕数=0 need_login=false
+    - rank BV1D9pn6KE9p 字幕数=0 need_login=true
+    - rank BV18Bpd6PEu3 字幕数=0 need_login=true
+    - rank BV1Fbpt6qEPq 字幕数=0 need_login=false
+    - rank BV179p76zEZR 字幕数=0 need_login=true
+    - rank BV1FBpR6jEz1 字幕数=0 need_login=true
+    - rank BV1ezWw6oETf 字幕数=0 need_login=true
+    - rank BV1VZWc6dECG 字幕数=0 need_login=true
+    - rank BV1EKWc6hEmQ 字幕数=0 need_login=true
+    - rank BV1doWc6xEjL 字幕数=0 need_login=false
+    - rank BV1Fspj66E66 字幕数=0 need_login=true
+    - rank BV1DCpj64Emi 字幕数=0 need_login=true
+    - rank BV1oBpX6iEMA 字幕数=0 need_login=true
+    - rank BV1A4pR6XEeK 字幕数=0 need_login=true
+    - rank BV1QmpE6aEA7 字幕数=0 need_login=true
+    - rank BV17EpY6UEdL 字幕数=0 need_login=true
+    - rank BV1nYpn6DEzp 字幕数=0 need_login=true
+    - rank BV1Jop96VExK 字幕数=0 need_login=false
+    - rank BV1uvpg6zEdw 字幕数=0 need_login=true
+    - rank BV1WUpd64Ex6 字幕数=0 need_login=true
+    - rank BV1hJp469Eo4 字幕数=0 need_login=false
+
+### C. 从「知识区/纪录片」排行扫（rid=207 知识区）
+  rid=207 失败 code=-400
+  rid=208 失败 code=-400
+  rid=209 失败 code=-400
+  rid=210 失败 code=-400
+
+!!! 仍未找到带 CC 字幕的视频

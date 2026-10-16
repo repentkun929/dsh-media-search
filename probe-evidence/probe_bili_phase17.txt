@@ -1,0 +1,21 @@
+### wbi 签名正确性（每组 5 次，间隔 3s，带 buvid3 cookie）
+  正确 mixinKey: ok=2 banned=3
+  错误 mixinKey: ok=2 banned=3
+
+### wbi 签名在 player/wbi/v2 上的正确性（该接口本身不校验 w_rid，恒 200）
+  错key [1] http=200 code=0
+  错key [2] http=200 code=0
+  错key [3] http=200 code=0
+
+### wbi 在 /x/space/arc/search 上（这个接口严格校验 w_rid）
+  正确 mixinKey: ok=1 banned=3
+  错误 mixinKey: ok=0 banned=4
+
+### 汇总：搜索类接口匿名成功率（各 10 次，间隔 2s）
+  all/v2  纯UA              ok=10/10  成功率=100%
+  all/v2  UA+Ref           ok=10/10  成功率=100%
+  all(old) 纯UA             ok=10/10  成功率=100%
+  type  纯UA                ok=3/10  成功率=30%
+  type  UA+buvid3          ok=8/10  成功率=80%
+  type  UA+buvid3+4        ok=6/10  成功率=60%
+  type  UA+buvid3+wbi+Ref  ok=10/10  成功率=100%

@@ -1,0 +1,141 @@
+===== PING_root =====
+URL: https://api.bilibili.com/
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 301
+BODY_LEN: 166
+BODY_FIRST_500: <html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+CODE: N/A(非JSON)
+MESSAGE: N/A
+elapsed_ms: 246
+
+===== PING_www =====
+URL: https://www.bilibili.com/
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 164047
+BODY_FIRST_500: <!DOCTYPE html>
+<html  lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
+    <meta
+      name="description"
+      content="哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。"
+    />
+    <meta
+      name="keywords"
+      content="bilibili,哔哩哔哩,哔哩哔哩动画,哔哩哔哩弹幕网,弹幕视频,B站,弹幕,字幕,AMV,MAD,MTV,ANIME,动漫,动漫音乐,游戏,游戏解说,二次元,游戏视频,ACG,galgame,动画,番组,新番,初音,洛天依,vocaloid,日本动漫,国产动漫,手机游戏,网络游戏,电子竞技,ACG燃曲,ACG神曲,追新番,新番动漫,新番吐槽,巡音,镜音双子,千本樱,初音MIKU,舞蹈MMD,MI
+CODE: N/A(非JSON)
+MESSAGE: N/A
+elapsed_ms: 240
+
+===== NAV =====
+URL: https://api.bilibili.com/x/web-interface/nav
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 249
+BODY_FIRST_500: {"code":-101,"message":"账号未登录","ttl":1,"data":{"isLogin":false,"wbi_img":{"img_url":"https://i0.hdslb.com/bfs/wbi/7cd084941338484aae1ad9425b84077c.png","sub_url":"https://i0.hdslb.com/bfs/wbi/4932caff0ff746eab6f01bf08b70ac45.png"},"ip_region":"CN"}}
+CODE: -101
+MESSAGE: 账号未登录
+elapsed_ms: 56
+
+WBI_IMG: {"img_url":"https://i0.hdslb.com/bfs/wbi/7cd084941338484aae1ad9425b84077c.png","sub_url":"https://i0.hdslb.com/bfs/wbi/4932caff0ff746eab6f01bf08b70ac45.png"}
+IS_LOGIN: false
+
+===== SEARCH_TYPE_video_鸣潮心月狐 =====
+URL: https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 412
+BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON)
+MESSAGE: N/A
+elapsed_ms: 67
+
+===== SEARCH_TYPE_video_原神攻略 =====
+URL: https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E5%8E%9F%E7%A5%9E%20%E6%94%BB%E7%95%A5&page=1
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 412
+BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON)
+MESSAGE: N/A
+elapsed_ms: 112
+
+SEARCH_SAMPLE: 未能从分类搜索拿到 bvid
+
+===== SEARCH_ALL_V2_鸣潮心月狐 =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 29716
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"15293716562382493508","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total
+CODE: 0
+MESSAGE: OK
+elapsed_ms: 340
+
+===== SEARCH_ALL_V2_原神攻略 =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E5%8E%9F%E7%A5%9E%20%E6%94%BB%E7%95%A5
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 30026
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"8891738566838552891","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total"
+CODE: 0
+MESSAGE: OK
+elapsed_ms: 289
+
+===== SEARCH_ALL_OLD_鸣潮心月狐 =====
+URL: https://api.bilibili.com/x/web-interface/search/all?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 27991
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"17179702710245393649","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total":0},"ban
+CODE: 0
+MESSAGE: OK
+elapsed_ms: 287
+
+===== SEARCH_ALL_OLD_原神攻略 =====
+URL: https://api.bilibili.com/x/web-interface/search/all?keyword=%E5%8E%9F%E7%A5%9E%20%E6%94%BB%E7%95%A5&page=1
+METHOD: GET
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 27778
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"7260811433780672873","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total":0},"bang
+CODE: 0
+MESSAGE: OK
+elapsed_ms: 290

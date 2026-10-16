@@ -1,0 +1,54 @@
+{
+  "code": 0,
+  "data": {
+    "cursor": {
+      "all_count": 237559,
+      "is_end": false,
+      "next": 2,
+      "prev": 0,
+      "is_begin": true,
+      "mode": 3
+    },
+    "replies": [
+      {
+        "rpid": "700000000000",
+        "like": 766780,
+        "rcount": 2204,
+        "ctime": 1700000000,
+        "member": {
+          "uname": "user_0001",
+          "mid": 2000000
+        },
+        "content": {
+          "message": "comment_body_1"
+        }
+      },
+      {
+        "rpid": "700000000001",
+        "like": 179573,
+        "rcount": 766,
+        "ctime": 1700003600,
+        "member": {
+          "uname": "user_0002",
+          "mid": 2000001
+        },
+        "content": {
+          "message": "comment_body_2"
+        }
+      },
+      {
+        "rpid": "700000000002",
+        "like": 201206,
+        "rcount": 1053,
+        "ctime": 1700007200,
+        "member": {
+          "uname": "user_0003",
+          "mid": 2000002
+        },
+        "content": {
+          "message": "comment_body_3"
+        }
+      }
+    ]
+  }
+}

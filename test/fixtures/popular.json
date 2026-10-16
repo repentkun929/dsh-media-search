@@ -1,0 +1,67 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "bvid": "BV1VVpo6gEYg",
+        "aid": 117427861985029,
+        "title": "【A2O】A2O LITE 'NEON' Official Video",
+        "duration": 223,
+        "pubdate": 1791808200,
+        "tname": "MV",
+        "pic": "http://i0.hdslb.com/bfs/archive/561841a87b9faa6213cda58630d8cb7376cd2638.jpg",
+        "owner": {
+          "mid": 1000000,
+          "name": "up_0003"
+        },
+        "stat": {
+          "view": 1924413,
+          "danmaku": 11254,
+          "reply": 11032,
+          "favorite": 32222,
+          "like": 92353
+        }
+      },
+      {
+        "bvid": "BV1VZWc6dECG",
+        "aid": 117430848391663,
+        "title": "【Re:从零开始的AI学习】第一季总集篇｜从入门到用好 AI",
+        "duration": 3297,
+        "pubdate": 1791853041,
+        "tname": "计算机技术",
+        "pic": "http://i0.hdslb.com/bfs/archive/0bc4fd83ef1159aa3bc3454ec0a477e161191fd7.png",
+        "owner": {
+          "mid": 1000001,
+          "name": "up_0004"
+        },
+        "stat": {
+          "view": 489755,
+          "danmaku": 273,
+          "reply": 1006,
+          "favorite": 84045,
+          "like": 34919
+        }
+      },
+      {
+        "bvid": "BV1nyJ66PEPQ",
+        "aid": 117442441446145,
+        "title": "泽连斯基有牌打了",
+        "duration": 1172,
+        "pubdate": 1792036200,
+        "tname": "人文历史",
+        "pic": "http://i0.hdslb.com/bfs/archive/67f75fbdfca181dd21c3ceb02f04350880e0d8a0.jpg",
+        "owner": {
+          "mid": 1000002,
+          "name": "up_0005"
+        },
+        "stat": {
+          "view": 669665,
+          "danmaku": 5409,
+          "reply": 3363,
+          "favorite": 10805,
+          "like": 50275
+        }
+      }
+    ]
+  }
+}

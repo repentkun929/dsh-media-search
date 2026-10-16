@@ -1,0 +1,189 @@
+IMG_KEY=7cd084941338484aae1ad9425b84077c SUB_KEY=4932caff0ff746eab6f01bf08b70ac45 MIXIN_KEY=ea1db124af3c7062474693fa704f4ff8
+
+===== ALL_V2_struct =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200  BODY_LEN: 29715
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"4067648581411190069","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total"
+CODE: 0  MESSAGE: OK
+
+ALL_V2_result_isArray=true len=12
+  [0] result_type=tips keys=["result_type","data"] data_len=0
+  [1] result_type=brand_ad keys=["result_type","data"] data_len=0
+  [2] result_type=esports keys=["result_type","data"] data_len=0
+  [3] result_type=activity keys=["result_type","data"] data_len=0
+  [4] result_type=web_game keys=["result_type","data"] data_len=0
+  [5] result_type=card keys=["result_type","data"] data_len=0
+  [6] result_type=media_bangumi keys=["result_type","data"] data_len=0
+  [7] result_type=media_ft keys=["result_type","data"] data_len=0
+  [8] result_type=bili_user keys=["result_type","data"] data_len=0
+  [9] result_type=user keys=["result_type","data"] data_len=0
+  [10] result_type=star keys=["result_type","data"] data_len=0
+  [11] result_type=video keys=["result_type","data"] data_len=20
+
+ALL_V2_VIDEO_ITEM_KEYS: ["type","id","author","mid","typeid","typename","arcurl","aid","bvid","title","description","pic","play","video_review","favorites","tag","review","pubdate","senddate","duration","badgepay","hit_columns","view_type","is_pay","is_union_video","rec_tags","new_rec_tags","like","upic","corner","cover","desc","url","rec_reason","danmaku","biz_data","is_charge_video","vt","enable_vt","vt_display","subtitle","episode_count_text","release_status","is_intervene","area","style","cate_name","is_live_room_inline","live_status","live_time","online","rank_index","rank_offset","roomid","short_id","spread_id","tags","uface","uid","uname","user_cover","parent_area_id","parent_area_name","watched_show","cny_flag","card_status"]
+ALL_V2_VIDEO_ITEM_0: {"type":"video","id":117357364253026,"author":"叫我棉被","mid":6014992,"typeid":"172","typename":"手机游戏","arcurl":"http://www.bilibili.com/video/av117357364253026","aid":117357364253026,"bvid":"BV1sHa966Eu6","title":"【<em class=\"keyword\">鸣潮</em>】<em class=\"keyword\">心月狐</em>攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","description":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","pic":"//i2.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg","play":1271766,"video_review":5025,"favorites":11706,"tag":"鸣潮心,岁主,今汐,同奏,鸣潮,养成,心月狐,教程攻略,漂泊者,细节","review":10896,"pubdate":1790731684,"senddate":1791389471,"duration":"21:24","badgepay":false,"hit_columns":["title","description","tag"],"view_type":"","is_pay":0,"is_union_video":0,"rec_tags":null,"new_rec_tags":[],"like":40536,"upic":"https://i1.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg","corner":"","cover":"","desc":"","url":"","rec_reason":"","danmaku":5025,"biz_data":null,"is_charge_video":0,"vt":0,"enable_vt":0,"vt_display":"","subtitle":"","episode_count_text":"","release_status":0,"is_intervene":0,"area":0,"style":0,"cate_name":"","is_live_room_inline":0,"live_status":0,"live_time":"","online":0,"rank_index":1,"rank_offset":1,"roomid":0,"short_id":0,"spread_id":0,"tags":"","uface":"","uid":0,"uname":"","user_cover":"","parent_area_id":0,"parent_area_name":"","watched_show":null,"cny_flag":0,"card_status":0}
+
+===== SEARCH_TYPE_wbi_鸣潮心月狐 =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1&search_type=video&wts=1792045195&w_rid=d61ce4946505c149ab1814b8b628796b
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 412  BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON)  MESSAGE: N/A
+
+===== SEARCH_TYPE_wbi_原神攻略 =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E5%8E%9F%E7%A5%9E%20%E6%94%BB%E7%95%A5&page=1&search_type=video&wts=1792045195&w_rid=ecb1964aa0b70decac20e6b47a04d546
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 412  BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON)  MESSAGE: N/A
+
+FIRST_VIDEO: {"bvid":"BV1sHa966Eu6","aid":117357364253026,"mid":6014992}
+
+===== VIEW_bvid =====
+URL: https://api.bilibili.com/x/web-interface/view?bvid=BV1sHa966Eu6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200  BODY_LEN: 180907
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"bvid":"BV1sHa966Eu6","aid":117357364253026,"videos":1,"tid":172,"tid_v2":2064,"tname":"","tname_v2":"","copyright":1,"pic":"http://i1.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg","title":"【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","pubdate":1790731684,"ctime":1790731684,"desc":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","desc_v2":[{"raw_text":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","type":1,"biz_id":0}],"state":0,"duration":
+CODE: 0  MESSAGE: OK
+
+===== VIEW_bvid_Referer =====
+URL: https://api.bilibili.com/x/web-interface/view?bvid=BV1sHa966Eu6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 180907
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"bvid":"BV1sHa966Eu6","aid":117357364253026,"videos":1,"tid":172,"tid_v2":2064,"tname":"","tname_v2":"","copyright":1,"pic":"http://i1.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg","title":"【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","pubdate":1790731684,"ctime":1790731684,"desc":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","desc_v2":[{"raw_text":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","type":1,"biz_id":0}],"state":0,"duration":
+CODE: 0  MESSAGE: OK
+
+===== VIEW_bvid_wbi =====
+URL: https://api.bilibili.com/x/web-interface/view?bvid=BV1sHa966Eu6&wts=1792045196&w_rid=4bfb42c0632a003a4715f438d3817f3f
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 180907
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"bvid":"BV1sHa966Eu6","aid":117357364253026,"videos":1,"tid":172,"tid_v2":2064,"tname":"","tname_v2":"","copyright":1,"pic":"http://i1.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg","title":"【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","pubdate":1790731684,"ctime":1790731684,"desc":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","desc_v2":[{"raw_text":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","type":1,"biz_id":0}],"state":0,"duration":
+CODE: 0  MESSAGE: OK
+
+===== VIEW_aid =====
+URL: https://api.bilibili.com/x/web-interface/view?aid=117357364253026
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 180907
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"bvid":"BV1sHa966Eu6","aid":117357364253026,"videos":1,"tid":172,"tid_v2":2064,"tname":"","tname_v2":"","copyright":1,"pic":"http://i1.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg","title":"【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","pubdate":1790731684,"ctime":1790731684,"desc":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","desc_v2":[{"raw_text":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","type":1,"biz_id":0}],"state":0,"duration":
+CODE: 0  MESSAGE: OK
+
+===== CARD_mid =====
+URL: https://api.bilibili.com/x/web-interface/card?mid=6014992&photo=false
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200  BODY_LEN: 2727
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"card":{"mid":"6014992","name":"叫我棉被","approve":false,"sex":"保密","rank":"10000","face":"https://i1.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg","face_nft":0,"face_nft_type":0,"DisplayRank":"0","regtime":0,"spacesta":0,"birthday":"","place":"","description":"","article":0,"attentions":[],"fans":2081602,"friend":1803,"attention":1803,"sign":"团队型手游攻略/二创UP主~想真正的活着，就不要去做轻松简单的选择。感谢大家的关注和支持！商务合作/内容合作，请私信获取联系方式。 ","level_info":{"current_level"
+CODE: 0  MESSAGE: OK
+
+===== CARD_mid_Referer =====
+URL: https://api.bilibili.com/x/web-interface/card?mid=6014992&photo=false
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 2727
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"card":{"mid":"6014992","name":"叫我棉被","approve":false,"sex":"保密","rank":"10000","face":"https://i1.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg","face_nft":0,"face_nft_type":0,"DisplayRank":"0","regtime":0,"spacesta":0,"birthday":"","place":"","description":"","article":0,"attentions":[],"fans":2081602,"friend":1803,"attention":1803,"sign":"团队型手游攻略/二创UP主~想真正的活着，就不要去做轻松简单的选择。感谢大家的关注和支持！商务合作/内容合作，请私信获取联系方式。 ","level_info":{"current_level"
+CODE: 0  MESSAGE: OK
+
+===== PLAYER_wbi_v2_raw =====
+URL: https://api.bilibili.com/x/player/wbi/v2?aid=117357364253026&cid=undefined
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 38
+BODY_FIRST_500: {"code":-400,"message":"请求错误","ttl":1}
+CODE: -400  MESSAGE: 请求错误
+
+===== PLAYER_wbi_v2_signed =====
+URL: https://api.bilibili.com/x/player/wbi/v2?aid=117357364253026&cid=undefined&wts=1792045196&w_rid=ca91272968f65c65d1bc2366effcf3c6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 38
+BODY_FIRST_500: {"code":-400,"message":"请求错误","ttl":1}
+CODE: -400  MESSAGE: 请求错误
+
+===== PLAYER_old_v2 =====
+URL: https://api.bilibili.com/x/player/v2?aid=117357364253026&cid=undefined
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 38
+BODY_FIRST_500: {"code":-400,"message":"请求错误","ttl":1}
+CODE: -400  MESSAGE: 请求错误
+
+===== PLAYER_pagelist =====
+URL: https://api.bilibili.com/x/player/pagelist?aid=117357364253026
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 343
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":[{"cid":42322496836,"page":1,"from":"vupload","part":"【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","duration":1284,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/_00002ae4gsj0cq2gi2he3kzn25ia6vb_firsti.jpg","ctime":1790731684}]}
+CODE: 0  MESSAGE: OK
+
+===== POPULAR =====
+URL: https://api.bilibili.com/x/web-interface/popular?pn=1&ps=5
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 7652
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"list":[{"aid":117410027799644,"videos":1,"tid":65,"tname":"网络游戏","copyright":3,"pic":"http://i0.hdslb.com/bfs/archive/dc3f2409b10f6189a354f89fad71c7b8859c65b0.jpg","title":"《异环》剧情过场丨「God Knows…（异环Cover ver.）」特别动画","pubdate":1792033200,"ctime":1791535108,"desc":"「God Knows…（异环Cover ver.）」特别动画正式公开，某传奇乐队的故事仍在继续！\n*「God Knows…（异环Cover ver.）」已经在《异环》1.4版本中实装！\n\n「God Knows…（异环Cover ver.）」\n作词：畑 亜貴\n作曲：神前 暁\n翻唱：明音 凛（CV：长谷川育美）\n原唱：平野綾","state":0,"duration":386,"
+CODE: 0  MESSAGE: OK
+
+===== RANKING =====
+URL: https://api.bilibili.com/x/web-interface/ranking/v2?rid=0&type=all
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 145660
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"note":"根据稿件内容质量、近期的数据综合展示，动态更新","list":[{"aid":117428281416596,"videos":1,"tid":228,"tname":"人文历史","copyright":3,"pic":"http://i2.hdslb.com/bfs/archive/6b05de9e015c24f9c96e932f58274a2180b9c540.jpg","title":"苏联版“空中监狱”是什么？【神奇组织55】","pubdate":1791862200,"ctime":1791814225,"desc":"本篇为神奇组织之苏联1990远东劫机案。","state":0,"duration":2620,"mission_id":4071132,"rights":{"bp":0,"elec":0,"download":0,"movie":0,"pay":0,"hd5":0,"no_reprint":0,"autoplay":1,"ugc_pay":0,"is_co
+CODE: 0  MESSAGE: OK
+
+===== SPI =====
+URL: https://api.bilibili.com/x/web-interface/view/conclusion/get?bvid=BV1sHa966Eu6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 41
+BODY_FIRST_500: {"code":-403,"message":"访问权限不足","ttl":1}
+
+CODE: -403  MESSAGE: 访问权限不足
+
+===== DYNAMIC_DETAIL =====
+URL: https://api.bilibili.com/x/polymer/web-dynamic/v1/detail?dynamic_id=1
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 54
+BODY_FIRST_500: {"code":4101139,"message":"请求数据发生错误，请刷新或稍后重试","ttl":1}
+CODE: 4101139  MESSAGE: 请求数据发生错误，请刷新或稍后重试
+
+===== RELATED =====
+URL: https://api.bilibili.com/x/web-interface/archive/related?bvid=BV1sHa966Eu6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 57311
+BODY_FIRST_500: {"code":0,"data":[{"aid":117442659491553,"videos":1,"tid":172,"tname":"手机游戏","copyright":1,"pic":"http://i0.hdslb.com/bfs/archive/5b891187f8eb62b9955232b94b6d0f3566f17c91.jpg","title":"【异环】明音凛全攻略！ 搞乐队的数值都这么高？我要弹春日影！ 配队养成＋保姆级操作讲解+进阶合轴教学","pubdate":1792033386,"ctime":1792033386,"desc":"本期视频与@零号攻略组 合作，为大家带来《异环》明音凛攻略 ，感觉有帮助还请三连支持一下~\n春日影前奏按键：] E P I E P ] E 1 ] P G J","state":0,"duration":795,"rights":{"bp":0,"elec":0,"download":0,"movie":0,"pay":0,"hd5":0,"no_reprint":1,"autoplay":1,"ugc_pay":0,"is
+CODE: 0  MESSAGE: OK
+
+===== DESC =====
+URL: https://api.bilibili.com/x/web-interface/archive/desc?bvid=BV1sHa966Eu6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 84
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~"}
+CODE: 0  MESSAGE: OK
+
+===== SEASON_INFO =====
+URL: https://api.bilibili.com/x/web-interface/view?bvid=BV1sHa966Eu6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 180907
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"bvid":"BV1sHa966Eu6","aid":117357364253026,"videos":1,"tid":172,"tid_v2":2064,"tname":"","tname_v2":"","copyright":1,"pic":"http://i1.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg","title":"【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","pubdate":1790731684,"ctime":1790731684,"desc":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","desc_v2":[{"raw_text":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","type":1,"biz_id":0}],"state":0,"duration":
+CODE: 0  MESSAGE: OK
+NOTE: 已测
+
+===== VIDEO_PAGE_HTML =====
+URL: https://www.bilibili.com/video/BV1sHa966Eu6/
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 626279
+BODY_FIRST_500: <!DOCTYPE html><html lang="zh-Hans"><head><meta name="format-detection" content="telephone=no, email=no"><meta http-equiv="Content-Type" content="text/html" charset="utf-8"><meta name="spm_prefix" content="333.788"><meta name="referrer" content="no-referrer-when-downgrade"><meta name="applicable-device" content="pc"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="shortcut icon" href="https://i0.hdslb.com/bfs/static/jinkela/
+CODE: N/A(非JSON)  MESSAGE: N/A

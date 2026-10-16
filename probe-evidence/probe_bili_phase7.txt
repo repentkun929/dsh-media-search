@@ -1,0 +1,80 @@
+### search/type 纯 UA，间隔 8 秒 × 8 次
+  [1] http=200 code=0
+  [2] http=412 code=HTML412
+  [3] http=200 code=0
+  [4] http=412 code=HTML412
+  [5] http=412 code=HTML412
+  [6] http=412 code=HTML412
+  [7] http=200 code=0
+  [8] http=412 code=HTML412
+  小计 ok=3 banned=5
+
+### 扫描更多关键词找 CC 字幕
+  日语教学 中文: 20 条
+    - BV12k4y167Nr 字幕数=0 need_login=false 【米津玄师】原来八爷一直是在用中文唱《春雷》！！！！
+    - BV1Wqaz6PEkZ 字幕数=0 need_login=true 如何用5分钟让听日语歌的和唱中文歌的都沉默☝️
+    - BV1AXUeBdEMa 字幕数=0 need_login=false cry for me教学+日语歌词+中文翻译
+    - BV1MCb66TE6t 字幕数=0 need_login=false 【一首日语歌】 柿崎ユウタ《衛星》日语歌教学（上）
+    - BV1Grpq6JEuf 字幕数=0 need_login=false 小时的日语教学
+    - BV1YSpC6MEVa 字幕数=0 need_login=true 【全400集】（允许白嫖）198小时讲完的日语入门学
+    - BV1LUPazyE9b 字幕数=0 need_login=true 跟着鬼灭学日语，我说中文你说日语！
+    - BV1CEpq6NEj4 字幕数=0 need_login=false 超实用♡日语教学♡
+    - BV15V8bzwEcL 字幕数=0 need_login=true 轻松学日语歌(纯属放P)    Hero's Com
+    - BV1cz2wBtEtw 字幕数=0 need_login=true 轻松学日语歌！    For You    日语歌小
+  考研英语 真题讲解: 20 条
+    - BV1cepC6JEps 字幕数=0 need_login=true 【Monkey】27考研英语真题阅读理解-百篇精读系
+    - BV17r4y1p7SZ 字幕数=0 need_login=false 同等学力申硕英语历年真题讲解 | 更新中
+    - BV12k4y1A7h8 字幕数=0 need_login=true 颉斌斌考研阅读真题逐篇刷题精讲（这是24旧版，请看2
+    - BV1peGL6JESE 字幕数=0 need_login=true 26版 近12套六级阅读真题满分带练 英语四六级，专
+    - BV1LsH464EG4 字幕数=0 need_login=true 2027考研英语--唐迟阅读刷题班（英语一）高清完整
+    - BV17Rhv63EMk 字幕数=0 need_login=true 【27考研数学】真题分类逐题讲解（数二）
+    - BV1Agpg6dEuQ 字幕数=0 need_login=true 【2027唐迟考研英语阅读真题英语一】2027考研英
+    - BV1QCpz6dE2H 字幕数=0 need_login=true 唐迟英语一阅读真题【2027唐迟考研英语全程班视频课
+    - BV16GWA6NETH 字幕数=0 need_login=false 【2027考研英语】易熙人完形填空2015-2022
+    - BV1Bs411J74f 字幕数=0 need_login=true 英语历年真题（一、二）讲解[1997-2018]
+  剪辑 教程 AE: 20 条
+    - BV1r5NZ62Ehb 字幕数=0 need_login=true AE剪辑：外网足球爆款剪辑
+    - BV1q1h96FE7i 字幕数=0 need_login=false 【剪辑教程】如何用手机剪出这种仿AE舞台转场视频呢?
+    - BV134516pEZe 字幕数=0 need_login=true 0 基础保姆级剪映教学！33 分钟彻底学会剪映专业版
+    - BV1EKAzzYEjW 字幕数=0 need_login=true 高斯泼溅教程分享-开场
+    - BV1mxRJBBEcb 字幕数=0 need_login=true 零基础入门教程：ae 影视化剪辑 底层逻辑
+    - BV12GaJ6mEwv 字幕数=0 need_login=true AE复刻超火MC外网风剪辑！完整流程拆解！
+    - BV1Mv5e6jE5f 字幕数=0 need_login=true 丝滑变速卡点剪辑教程（pad专业版）
+    - BV12XtSzMEaR 字幕数=0 need_login=false 【AE教程】tk风格简单流畅的完整剪辑教程
+    - BV12zHm6qEX1 字幕数=0 need_login=true 【全99集】“剪映+PR+AE+达芬奇”从零开始学视
+    - BV1Aha26nEE2 字幕数=0 need_login=true AE游戏公式化剪辑教程
+  经济学 公开课 中文字幕: 20 条
+    - BV1J6cxevEyP 字幕数=0 need_login=true 经济学综合博弈实验入门攻略
+    - BV1YnYL6SESt 字幕数=0 need_login=false 30分钟学完｜政治经济学、科学社会主义，速成课【空卡
+    - BV1bt421M7zi 字幕数=0 need_login=true 剑桥IGCSE经济专项精讲课程【CAIE考试局】Ca
+    - BV1SzmjB2E2N 字幕数=0 need_login=true 【DrAzevedoEcon】国际经济学 | Int
+    - BV17t4y1m77e 字幕数=0 need_login=true 真正的金融大师课-Perry Mehrling 油管
+    - BV1oSYmzFEDt 字幕数=0 need_login=true 国际经济学【全67讲】【含资料】【中央财经大学】【国
+    - BV11Ra66zEk9 字幕数=0 need_login=true 【AI合成音频】无处不在的经济学|第一季【1】
+    - BV1KEJC6UEnq 字幕数=0 need_login=true 2026年经济学诺奖与经济学考研的联系串讲
+    - BV1jjKMedEP6 字幕数=0 need_login=true 【麻省理工 • 中英】微观经济学原理MIT14.01
+    - BV1cf59zCEtS 字幕数=0 need_login=false 可汗学院迷你课程《经济学导论》| Khan Acad
+  AI 教程 中文字幕: 20 条
+    - BV1L1p36QErL 字幕数=0 need_login=false 【中文字幕】变形金刚：塞伯世界第二季 第6集 巨兵角
+    - BV1KTNU6hECt 字幕数=0 need_login=true 从零教你做ai烤肉视频
+    - BV1XUpR6qEtA 字幕数=0 need_login=false 「Mana」景察街头盘查·ASMR(中文字幕)
+    - BV1pPJk6uEKR 字幕数=0 need_login=false 【10月/扳机社/英日配音】赛博朋克 边缘行者 第二
+    - BV1v9h5zhEME 字幕数=0 need_login=true 【2025】别再“啃生肉”了！免费开源！这个AI视频
+    - BV1VQHz64Ezc 字幕数=0 need_login=false 【超好听的英文翻唱！/中文字幕】驱魔/アクマバライ/
+    - BV16BGw6MEMD 字幕数=0 need_login=false 【中文字幕】驱魔/アクマバライ/Exorcist f
+    - BV11NAwzBEhf 字幕数=0 need_login=false 解放双手！一键生成翻译和字幕，up主和看生肉必备【V
+    - BV1WvRhBwETR 字幕数=0 need_login=true AI for everyone 系列教程原声中文版【
+    - BV1sQVe6kEax 字幕数=0 need_login=false 韩英双语《现代战争4》首预告，中文字幕。
+  计算机科学 中文字幕: 20 条
+    - BV1NdHY68E6d 字幕数=0 need_login=false playing with science
+    - BV1ug1kB1EVX 字幕数=0 need_login=true A-level CIE Computer Scien
+    - BV1rCJk6kEfM 字幕数=0 need_login=true 【中配】脑洞大开的计算机科学概念 第1期 - Lat
+    - BV1pnpN6CEXL 字幕数=0 need_login=true “计算机”三个字的偏旁为什么是“言、竹、木”？【字说
+    - BV1ESpS6aE6Y 字幕数=0 need_login=true AI 通识小课堂 计算机基础 第二集
+    - BV1oT411g7Tu 字幕数=0 need_login=false Big Data - 大数据（中文字幕）
+    - BV1Ze4y1e7sA 字幕数=0 need_login=false 计算机专业英语词汇（1）
+    - BV1wgej6gEms 字幕数=0 need_login=false 全网爆火的计算机入门神课！《计算机科学速成课》40集
+    - BV17Ce76iE5s 字幕数=0 need_login=true 给迷茫的计算机科学学生的建议 - Shade of 
+    - BV1aWHC6wEie 字幕数=0 need_login=false 哈佛大学  CS50x  计算机科学导论
+
+未找到带 CC 字幕的视频

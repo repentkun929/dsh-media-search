@@ -1,0 +1,151 @@
+真实 buvid3 = 99967BD5-307D-54FD-5F4C-FE845C6E39A418184infoc
+
+### search/type 六场景 × 4 次（keyword=鸣潮 心月狐，page 递增避免缓存）
+  A_UAonly                   ok=2 http412=2 other=0
+  B_Referer_only             ok=2 http412=2 other=0
+  C_buvid3_only              ok=1 http412=3 other=0
+  D_fakebuvid3_only          ok=1 http412=3 other=0
+  E_Referer_plus_fakebuvid3  ok=4 http412=0 other=0
+  F_full_buvid3_4            ok=3 http412=1 other=0
+
+### player/wbi/v2 各场景（aid=117357364253026 cid=42322496836）
+  P_UAonly_raw               http=200 code=0 subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+  P_Referer_raw              http=200 code=0 subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+  P_wbi_noReferer_nocookie   http=200 code=0 subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+  P_wbi_Referer_cookie       http=200 code=0 subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+  P_UAonly_no_wbi_old        http=200 code=0 subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+
+### 查找带 CC 字幕的视频（搜「TED 演讲 字幕」「纪录片 中文字幕」「公开课」）
+  TED 演讲 中文字幕: 20 条
+    BV1UbyZB9ERb aid=115479154793729 cid=33622133700 need_login_subtitle=true 字幕数=0 标题=【TED演讲】必看100场TED演讲合集 | 口语听力提升必
+    BV1ygaL6YExX aid=117349629827314 cid=42283107431 need_login_subtitle=false 字幕数=0 标题=TED演讲：你其实不知道未来的自己想要什么
+    BV1x5pj67EQk aid=117420966615634 cid=42644145459 need_login_subtitle=false 字幕数=0 标题=TED演讲：棋盘游戏让孩子们对学校感到兴奋
+    BV1GRTU6LEmw aid=116869751118013 cid=39686376458 need_login_subtitle=false 字幕数=0 标题=日语Ted演讲全集（1600集） TEDx talks in
+    BV18Jp16iE8a aid=117438968502070 cid=42737795869 need_login_subtitle=false 字幕数=0 标题=TED 演讲｜你真的有自己想象中那么厉害吗？
+    BV15b411L7M4 aid=49751073 cid=87110383 need_login_subtitle=true 字幕数=0 标题=TED演讲：如何解决焦虑？
+  纪录片 中文字幕: 20 条
+    BV1V6HJ6PEFF aid=117384040027743 cid=42466148476 need_login_subtitle=false 字幕数=0 标题=【中文字幕】《帝国的尘埃》纪录片完整版 —— Empire 
+    BV1fJYk6NEkK aid=117266750379959 cid=41872655264 need_login_subtitle=false 字幕数=0 标题=纪录片《了不起的中国创造》（第三季）7集
+    BV1ZppG6sEZq aid=117417325892751 cid=42630907955 need_login_subtitle=false 字幕数=0 标题=【中西双语字幕｜高分西班牙语纪录片】铁路史——缩小世界、改变
+    BV1ivpt6aE2d aid=117411369981687 cid=42599972975 need_login_subtitle=true 字幕数=0 标题=【系列人文风光纪录片】北极人家（高清四集全）
+    BV11Sp56yEmf aid=117420010243222 cid=42640868076 need_login_subtitle=false 字幕数=0 标题=【4K杜比/中英字幕】高分纪录片《我们的星球 第二季》全4集
+    BV1G34y1p7Xn aid=812988169 cid=760865416 need_login_subtitle=false 字幕数=0 标题=【魅力香港】英文纪录片系列 | Visiting China
+  高等数学 公开课: 20 条
+    BV1CAxaeHEeH aid=113229984501716 cid=26087195706 need_login_subtitle=true 字幕数=0 标题=《高等数学》全程教学视频 2.0版【宋浩老师】
+    BV12VH96UEGa aid=117405548286024 cid=42571140938 need_login_subtitle=true 字幕数=0 标题=2026年“田家炳杯”全日制教育硕士专业学位研究生学科教学（
+    BV11XhF6REBv aid=117165147560695 cid=41311012888 need_login_subtitle=true 字幕数=0 标题=《高等数学(上)》精讲课程 | 框框老师 | 完结！
+    BV164TQ6wEGH aid=116872385271650 cid=42321120110 need_login_subtitle=true 字幕数=0 标题=北大版高等数学上
+    BV1sep465Ezj aid=117410162082903 cid=42592898004 need_login_subtitle=true 字幕数=0 标题=宋浩《高等数学0基础一遍过》导数上
+    BV13A4y1d7uz aid=897518951 cid=750466038 need_login_subtitle=false 字幕数=0 标题=【专升本高等数学全集】【衡哥升本数学】【24版专升本数学基础
+
+未在前 6 条×3 个关键词里找到带 CC 字幕的视频
+
+### 第二关键词「原神 攻略」复跑
+  all/v2 UAonly      http=200 code=0
+  all(old) UAonly    http=200 code=0
+  type UAonly        http=200 code=0
+  type 成功体前500:  {"code":0,"message":"OK","ttl":1,"data":{"seid":"13565199788036907994","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"105203":true,"106002":true,"5502":true,"64948101":true,"65785102":true,"6608":true,"70529100":true,"72412101":true,"77425103":true,"78597100":true,"78757101":true,"78772101":true,"78810103":true,"79251100":true,"80194100":true,"80717101":true,"81242101":true,"81701100":true,"81989101":true,"83294100":true
+  type 样本: {"bvid":"BV1FhpX6GE1i","aid":117425999709024,"mid":431073645,"title":"【<em class=\"keyword\">原神</em>】判测胜券本征 活动<em class=\"keyword\">攻略</em>/预测/<em class=\"keyword\">原神</em>7.1","author":"你的影月月","play":757433,"duration":"0:42","danmaku":372,"pubdate":1791778896,"pic":"//i0.hdslb.com/bfs/archive/7e12b6fb3927618368db731f96086a29cc9a6638.jpg"}
+  view UAonly        http=200 code=0 title=【原神】判测胜券本征 活动攻略/预测/原神7.1
+  view 体前500: {"code":0,"message":"OK","ttl":1,"data":{"bvid":"BV1FhpX6GE1i","aid":117425999709024,"videos":1,"tid":172,"tid_v2":2064,"tname":"","tname_v2":"","copyright":1,"pic":"http://i1.hdslb.com/bfs/archive/7e12b6fb3927618368db731f96086a29cc9a6638.jpg","title":"【原神】判测胜券本征 活动攻略/预测/原神7.1","pubdate":1791778896,"ctime":1791778896,"desc":"有帮助的话还请三连支持一下！\n原神最全的攻略导航：https://www.bilibili.com/read/cv13698984","desc_v2":[{"raw_text":"有帮助的话还请三连支持一下！\n原神最全的攻略导航：https://www.bilibili.com/read/cv13698984","type":1,"biz
+  card UAonly        http=200 code=0
+  card 体前500: {"code":0,"message":"OK","ttl":1,"data":{"card":{"mid":"431073645","name":"你的影月月","approve":false,"sex":"男","rank":"10000","face":"https://i0.hdslb.com/bfs/face/2e32de7b28fc491a28281a22c6ea9f5d195cbdf5.jpg","face_nft":0,"face_nft_type":0,"DisplayRank":"0","regtime":0,"spacesta":0,"birthday":"","place":"","description":"","article":0,"attentions":[],"fans":10594929,"friend":222,"attention":222,"sign":"攻略在合集观看！电视端建议手机投屏！商务邮注明来意 jyybiz@qq.com  常用手机：一加15！不接代肝，用我名义接代肝的都是骗子！","level_info":{"current_le
+
+### 老版 search/all 结果结构（UAonly）
+data.keys: ["seid","page","pagesize","numResults","numPages","suggest_keyword","rqt_type","exp_list","is_hit_web_inf","egg_hit","pageinfo","top_tlist","show_column","show_module_list","app_display_option","result"]
+result 长度=21
+  [0] result_type=undefined data_len=n/a
+  [1] result_type=undefined data_len=n/a
+  [2] result_type=undefined data_len=n/a
+  [3] result_type=undefined data_len=n/a
+  [4] result_type=undefined data_len=n/a
+  [5] result_type=undefined data_len=n/a
+  [6] result_type=undefined data_len=n/a
+  [7] result_type=undefined data_len=n/a
+  [8] result_type=undefined data_len=n/a
+  [9] result_type=undefined data_len=n/a
+  [10] result_type=undefined data_len=n/a
+  [11] result_type=undefined data_len=n/a
+  [12] result_type=undefined data_len=n/a
+  [13] result_type=undefined data_len=n/a
+  [14] result_type=undefined data_len=n/a
+  [15] result_type=null data_len=n/a
+  [16] result_type=undefined data_len=n/a
+  [17] result_type=undefined data_len=n/a
+  [18] result_type=null data_len=n/a
+  [19] result_type=undefined data_len=n/a
+  [20] result_type=undefined data_len=n/a
+
+### all/v2 video item 完整字段值（UAonly, 原神 攻略）
+{
+  "type": "video",
+  "id": 117425999709024,
+  "author": "你的影月月",
+  "mid": 431073645,
+  "typeid": "172",
+  "typename": "手机游戏",
+  "arcurl": "http://www.bilibili.com/video/av117425999709024",
+  "aid": 117425999709024,
+  "bvid": "BV1FhpX6GE1i",
+  "title": "【<em class=\"keyword\">原神</em>】判测胜券本征 活动<em class=\"keyword\">攻略</em>/预测/<em class=\"keyword\">原神</em>7.1",
+  "description": "有帮助的话还请三连支持一下！\n原神最全的攻略导航：https://www.bilibili.com/read/cv13698984",
+  "pic": "//i0.hdslb.com/bfs/archive/7e12b6fb3927618368db731f96086a29cc9a6638.jpg",
+  "play": 757433,
+  "video_review": 372,
+  "favorites": 3487,
+  "tag": "判测胜券本征,往冥府的安魂歌,至冬7.1,原神7.1,原神,游戏鉴赏家,游戏攻略",
+  "review": 7347,
+  "pubdate": 1791778896,
+  "senddate": 1791786024,
+  "duration": "0:42",
+  "badgepay": false,
+  "hit_columns": [
+    "title",
+    "description",
+    "tag"
+  ],
+  "view_type": "",
+  "is_pay": 0,
+  "is_union_video": 0,
+  "rec_tags": null,
+  "new_rec_tags": [],
+  "like": 28351,
+  "upic": "https://i0.hdslb.com/bfs/face/2e32de7b28fc491a28281a22c6ea9f5d195cbdf5.jpg",
+  "corner": "",
+  "cover": "",
+  "desc": "",
+  "url": "",
+  "rec_reason": "",
+  "danmaku": 372,
+  "biz_data": null,
+  "is_charge_video": 0,
+  "vt": 0,
+  "enable_vt": 0,
+  "vt_display": "",
+  "subtitle": "",
+  "episode_count_text": "",
+  "release_status": 0,
+  "is_intervene": 0,
+  "area": 0,
+  "style": 0,
+  "cate_name": "",
+  "is_live_room_inline": 0,
+  "live_status": 0,
+  "live_time": "",
+  "online": 0,
+  "rank_index": 1,
+  "rank_offset": 1,
+  "roomid": 0,
+  "short_id": 0,
+  "spread_id": 0,
+  "tags": "",
+  "uface": "",
+  "uid": 0,
+  "uname": "",
+  "user_cover": "",
+  "parent_area_id": 0,
+  "parent_area_name": "",
+  "watched_show": null,
+  "cny_flag": 0,
+  "card_status": 0
+}

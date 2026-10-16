@@ -1,0 +1,33 @@
+### A. 从视频页 HTML 的 __INITIAL_STATE__ 挖 subtitle（BV1upp16vEFw 耶鲁公开课）
+html len=153259
+未匹配到 __INITIAL_STATE__
+手动找位置=8852
+__INITIAL_STATE__={"spmidPrefix":"333.788","inWechat":false,"isClient":false,"isPrVideo":false,"isModern":true,"lang":"zh-Hans","isOverseas":false,"error":{},"pageTheme":"light","defaultWbiKey":{"wbiImgKey":"2590160e9f5142d4a501feda0490f3bd","wbiSubKey":"34ba9c5c4a824b368e9c053be34016bd"},"urlRuleKv":{"whitelist":{"domain":["bilibili.com","biligame.com","b23.tv","esheep.com","aikobo.cn","mhyurl.cn\u002FdtiiFBAL","missevan.com","infinitynikki.nuanpaper.com\u002FSeaofStars_bilibili","www.huasheng.cn","www.updream.cn"],"rex":[]},"blacklist":{"domain":[],"rex":[]}},"channelKv":[{"channelId":25,"ti
+
+### B. pgc player 接口（番剧 ep）
+  /pgc/player/web/playurl?aid=114656567954550&cid=30414866560&...
+    http=200 code=0 前250: {"code":0,"message":"success","result":{"accept_format":"mp4,mp4,mp4,mp4,mp4","code":0,"seek_param":"start","is_preview":1,"fnval":16,"video_project":true,"fnver":0,"type":"MP4","bp":0,"seek_type":"second","result":"suee","from":"local","video_codeci
+  /pgc/player/web/v2/playurl?aid=114656567954550&cid=304148665...
+    http=200 code=0 前250: {"code":0,"message":"success","result":{"exp_info":{"buy_vip_donated_season":0},"play_check":{"play_detail":"PLAY_PREVIEW"},"play_view_business_info":{"episode_info":{"aid":114656567954550,"bvid":"BV193TrzrETW","cid":30414866560,"delivery_business_fr
+  /x/player/wbi/v2?aid=114656567954550&cid=30414866560...
+    http=200 code=0 前250: {"code":0,"message":"OK","ttl":1,"data":{"aid":114656567954550,"bvid":"BV193TrzrETW","allow_bp":false,"no_share":false,"cid":30414866560,"max_limit":6000,"page_no":1,"has_next":false,"ip_info":{"ip":"120.219.119.91","zone_ip":" 10.163.152.25","zone_i
+
+### C. 试 /x/player/wbi/v2?cid= 单独 + 老版 player 的 subtitle 差异
+  /x/player/v2?aid=117357364253026&cid=42322496836 -> code=0 subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+  /x/player/wbi/v2?aid=117357364253026&cid=42322496836 -> code=0 subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+  /x/player/wbi/v2?cid=42322496836 -> code=-400 subtitle=n/a
+
+### D. 找 CC 字幕的另一个思路：B 站"投稿声讲"或"字幕语言"搜索
+  result_type 列表=["tips","brand_ad","esports","activity","web_game","card","media_bangumi","media_ft","bili_user","user","star","video"]
+  [video] keys=["type","id","author","mid","typeid","typename","arcurl","aid","bvid","title","description","pic","play","video_review","favorites","tag","review","pubdate","senddate","duration","badgepay","hit_columns","view_type","is_pay","is_union_video","rec_tags","new_rec_tags","like","upic","corner","cover","desc","url","rec_reason","danmaku","biz_data","is_charge_video","vt","enable_vt","vt_display","subti
+
+### E. 结论性验证：search/all/v2 的 subtitle 字段（搜索项里）
+  20 条，subtitle 字段值：
+    BV1gJ41157Yh subtitle="" lan_doc=n/a
+    BV167uN6BEAx subtitle="" lan_doc=n/a
+    BV1Ps411Z7h1 subtitle="" lan_doc=n/a
+    BV1gEp16MEfv subtitle="" lan_doc=n/a
+    BV1Yf4y1L7H4 subtitle="" lan_doc=n/a
+    BV1wRpy69EYZ subtitle="" lan_doc=n/a
+    BV1qo4y167dz subtitle="" lan_doc=n/a
+    BV1KqJk62Ec5 subtitle="" lan_doc=n/a

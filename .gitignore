@@ -1,0 +1,15 @@
+node_modules/
+.vendor/
+.tmp_*
+*.log
+
+# 账号凭证，绝不入库
+*.cookie
+.cookie*
+
+# 本地临时探测输出
+probe-evidence/_scratch/
+
+# 注意：lib/ 故意不忽略 —— 设计方案 §4.4 要求提交构建产物，
+# 这样用户从 git 安装时无需本地构建（宿主直接加载 lib/index.mjs 与 lib/client.js）。
+# 改源码后必须重跑 pnpm run build 并一起提交，否则产物与源码不一致。

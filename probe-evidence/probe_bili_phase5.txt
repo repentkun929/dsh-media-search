@@ -1,0 +1,150 @@
+buvid3=CD20A06B-04B0-4356-728F-D724408BA01459356infoc
+mixinKey=ea1db124af3c7062474693fa704f4ff8
+
+===== PLAYER_WBI_V2_FULL =====
+URL: /x/player/wbi/v2?aid=117357364253026&cid=42322496836&wts=1792045556&w_rid=ff45d06b85a50f1d62cc8e22cabbc37c
+HTTP_STATUS: 200
+DATA_KEYS: ["aid","bvid","allow_bp","no_share","cid","max_limit","page_no","has_next","ip_info","login_mid","login_mid_hash","is_owner","name","permission","level_info","vip","answer_status","block_time","role","last_play_time","last_play_cid","now_time","online_count","need_login_subtitle","subtitle","view_points","preview_toast","options","guide_attention","jump_card","operation_card","online_switch","fawkes","show_switch","bgm_info","toast_block","is_upower_exclusive","is_upower_play","is_ugc_pay_preview","elec_high_level","disable_show_up_info","is_upower_exclusive_with_qa","arc_aigc","self_visible","script_pace","script_pace_exp","asr_language","ocr_language"]
+subtitle: {"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+subtitle_v2: undefined
+view_points: [{"type":2,"from":0,"to":77,"content":"引言","imgUrl":"http://i0.hdslb.com/bfs/vchapter/42322496836_0.jpg","logoUrl":"","team_type":"","team_name":""},{"type":2,"from":77,"to":236,"content":"电磁效应玩法","im
+bgm_info: null
+video_info: undefined
+need_login_subtitle: false
+answer_status: 0
+options: {"is_360":false,"without_vip":false}
+BODY_FIRST_1200: {"code":0,"message":"OK","ttl":1,"data":{"aid":117357364253026,"bvid":"BV1sHa966Eu6","allow_bp":false,"no_share":false,"cid":42322496836,"max_limit":3000,"page_no":1,"has_next":false,"ip_info":{"ip":"120.219.119.91","zone_ip":" 10.157.25.32","zone_id":4505616,"country":"中国","province":"河南","city":"郑州"},"login_mid":0,"login_mid_hash":"","is_owner":false,"name":"","permission":"0","level_info":{"current_level":0,"current_min":0,"current_exp":0,"next_exp":0,"level_up":0},"vip":{"type":0,"status":0,"due_date":0,"vip_pay_type":0,"theme_type":0,"label":{"path":"","text":"","label_theme":"","text_color":"","bg_style":0,"bg_color":"","border_color":"","use_img_label":false,"img_label_uri_hans":"","img_label_uri_hant":"","img_label_uri_hans_static":"","img_label_uri_hant_static":"","label_id":0,"label_goto":null,"img_label_uri_i18n":"","img_label_uri_i18n_static":"","label_type":0},"avatar_subscript":0,"nickname_color":"","role":0,"avatar_subscript_url":"","tv_vip_status":0,"tv_vip_pay_type":0,"tv_due_date":0,"avatar_icon":{"icon_resource":{}},"ott_info":{"vip_type":0,"pay_type":0,"pay_channel_id":"","status":0,"overdue_time":0},"super_vip":{"is_super_vip":false}},"answer_status":0,"block_t
+
+===== PLAYER_OLD_V2_SUBTITLE =====
+subtitle: {"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+
+该视频无字幕（匿名可见）——subtitle={"allow_submit":false,"lan":"","lan_doc":"","subtitles":[],"subtitle_position":null,"font_size_type":0}
+
+### search/type 复测（带 buvid cookie + Referer，无 wbi）
+  [1] http=200 code=0 len=28670
+  [2] http=200 code=0 len=28029
+  [3] http=200 code=0 len=28687
+
+### search/type 复测（只带 UA，无 cookie 无 Referer）
+  [1] http=412 code=HTML len=3286
+  [2] http=200 code=0 len=27818
+  [3] http=412 code=HTML len=3286
+
+### search/type 复测（wbi + Referer，无 cookie）
+  [1] http=412 code=HTML len=3286
+  [2] http=412 code=HTML len=3286
+  [3] http=412 code=HTML len=3286
+
+### 单变量：search/type 带 Referer 但只有 buvid3（无 buvid4）
+  http=200 code=0
+### 单变量：search/type 带 Referer + 假 buvid3
+  http=200 code=0
+### 单变量：search/type 只带 buvid3（无 Referer）
+  http=200 code=0
+
+===== WAF_412_HTML_FULL =====
+HTTP_STATUS: 412
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+    <title>出错啦! - bilibili.com</title>
+    <link rel="shortcut icon" href="//static.hdslb.com/images/favicon.ico">
+    <script type="text/javascript" src="//s1.hdslb.com/bfs/static/jinkela/long/js/jquery/jquery1.7.2.min.js"></script>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          width: 100vw;
+          height: 100vh;
+        }
+       .error-container {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .captcha-content {
+          text-align: center;
+        }
+        .txt-wrap {
+          margin-top: 15px;
+          font-size: 12px;
+          line-height: 22px;
+          color: #999;
+          text-align: left;
+        }
+        .txt-item.err-code {
+          font-size: 28px;
+          font-weight: 700;
+          text-align: center;
+          color: #4c93ff;
+          margin-top: 16px;
+        }
+        
+        .captcha-img {
+          width: 160px;
+          height: 160px;
+          margin: auto;
+          background: url('https://i0.hdslb.com/bfs/static/jinkela/long/412/%E9%A1%B5%E9%9D%A2%E7%8A%B6%E6%80%81%E5%9B%BE.png') no-repeat center / cover;
+        }
+        .err-text {
+          color: #03a9f4;
+        }
+        .err-default {
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      </style>
+</head>
+
+<body>
+    <noscript>
+          <strong>抱歉！我们需要允许JavaScript才能够正常运行。请打开后重试~</strong>
+          <strong>错误：412</strong>
+      </noscript>
+      <div class="error-container">
+        <div class="captcha-content">
+          <div class="captcha-img"></div>
+          <div class="txt-item err-code">错误号: 412</div>
+          <div class="txt-item err-text"></div>
+          <div class="txt-item err-default">由于触发哔哩哔哩安全风控策略，该次访问请求被拒绝。 
+            <div class="txt-item">The request was rejected because of the bilibili security control policy.</div>
+          </div>
+          <div class="txt-wrap">
+            <div class="txt-item datetime_now"></div>
+            <div class="txt-item user_url"></div>
+            <div class="txt-item user_ip"></div>
+            <div class="txt-item user_id"></div>
+          </div>
+          <div class="check-input">
+              <div class="title"></div>
+              <div class="box-pic"></div>
+              <div class="box"></div>
+              <div class="state"></div>
+          </div>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="//security.bilibili.com/static/js/sha256.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//security.bilibili.com/static/js/js.cookie.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//security.bilibili.com/static/js/412.js"></script>
+</body>
+</html>
+
+===== VIEW_DATA_KEYS =====
+keys: ["bvid","aid","videos","tid","tid_v2","tname","tname_v2","copyright","pic","title","pubdate","ctime","desc","desc_v2","state","duration","rights","owner","stat","argue_info","dynamic","cid","dimension","season_id","premiere","teenage_mode","is_chargeable_season","is_story","is_upower_exclusive","is_upower_play","is_upower_preview","enable_vt","vt_display","is_upower_exclusive_with_qa","is_hua_sheng","no_cache","pages","subtitle","ugc_season","is_season_display","user_garb","honor_reply","like_icon","need_jump_bv","disable_show_up_info","is_story_play","is_view_self"]
+stat: {"aid":117357364253026,"view":1271837,"danmaku":5025,"reply":10896,"favorite":11706,"coin":12991,"share":2656,"now_rank":0,"his_rank":0,"like":40561,"dislike":0,"evaluation":"","vt":0}
+owner: {"mid":6014992,"name":"叫我棉被","face":"https://i1.hdslb.com/bfs/face/e9e613fd43bac62672a5e4c828a07fe155c1965a.jpg"}
+pubdate: 1790731684 -> 2026-09-30T01:28:04.000Z
+duration: 1284  videos: 1  tid_v2: 2064  tname_v2: 
+pages: [{"cid":42322496836,"page":1,"part":"【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧","duration":1284}]
+rights: {"bp":0,"elec":0,"download":1,"movie":0,"pay":0,"hd5":0,"no_reprint":1,"autoplay":1,"ugc_pay":0,"is_cooperation":0,"ugc_pay_preview":0,"no_background":0,"clean_mode":0,"is_stein_gate":0,"is_360":0,"no_share":0,"arc_pay":0,"free_watch":0}
+argue_info 前200: {"argue_msg":"","argue_type":0,"argue_link":""}
+desc_v2 前300: [{"raw_text":"本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~","type":1,"biz_id":0}]

@@ -1,0 +1,61 @@
+### A. pgc 番剧详情（ss43272 航拍中国 第四季）
+http=200 code=0 len=29326
+BODY_FIRST_600: {"code":0,"message":"success","result":{"activity":{"head_bg_url":"","id":0,"title":""},"actors":"李龙滨","alias":"","areas":[{"id":1,"name":"中国大陆"}],"bkg_cover":"","cover":"http://i0.hdslb.com/bfs/bangumi/image/9ecdb83bd1babf69901e5d53e02efde3cae1d1ee.png","delivery_fragment_video":false,"enable_vt":false,"episodes":[{"aid":114656567954550,"badge":"会员","badge_info":{"bg_color":"#FB7299","bg_color_night":"#D44E7D","text":"会员"},"badge_type":0,"bvid":"BV193TrzrETW","cid":30414866560,"cover":"http://i0.hdslb.com/bfs/archive/9e4f1e36bac72b03bb600414f39e027fcd25c8aa.jpg","dimension":{"height":1080,"ro
+
+episodes 数=11
+  ep: {"id":1779625,"aid":114656567954550,"cid":30414866560,"bvid":"BV193TrzrETW","title":"1","long_title":"北京","duration":3001000}
+  ep: {"id":1800203,"aid":114656567954032,"cid":30414866608,"bvid":"BV193TrzrEeD","title":"2","long_title":"广西","duration":3001000}
+  ep: {"id":1829736,"aid":114656567953526,"cid":30414866780,"bvid":"BV193TrzrExA","title":"3","long_title":"青海","duration":3001000}
+  ep: {"id":1849184,"aid":114656567888514,"cid":30414866766,"bvid":"BV1e3TrzrEP8","title":"4","long_title":"湖北","duration":3001000}
+  ep: {"id":1885683,"aid":114656567887484,"cid":30414866556,"bvid":"BV1e3TrzrEW8","title":"5","long_title":"香港","duration":3001000}
+  --- 检查 ep id=1779625 aid=114656567954550 cid=30414866560 北京 ---
+    player code=0 字幕数=0 need_login_subtitle=true
+  --- 检查 ep id=1800203 aid=114656567954032 cid=30414866608 广西 ---
+    player code=0 字幕数=0 need_login_subtitle=true
+  --- 检查 ep id=1829736 aid=114656567953526 cid=30414866780 青海 ---
+    player code=0 字幕数=0 need_login_subtitle=true
+  --- 检查 ep id=1849184 aid=114656567888514 cid=30414866766 湖北 ---
+    player code=0 字幕数=0 need_login_subtitle=true
+  --- 检查 ep id=1885683 aid=114656567887484 cid=30414866556 香港 ---
+    player code=0 字幕数=0 need_login_subtitle=true
+
+PGC 前 5 集匿名都看不到字幕（need_login_subtitle 很可能=true）
+
+### B. PGC 相关匿名接口
+  pgc_season_info        http=404 code=HTML len=5633 前200: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" conte
+  pgc_page_bangumi       http=200 code=-400 len=30 前200: {"code":-400,"message":"请求错误"}
+  pgc_page_cinema        http=200 code=-400 len=30 前200: {"code":-400,"message":"请求错误"}
+  season_rank            http=200 code=0 len=74207 前200: {"code":0,"message":"success","result":[{"badge":"出品","badge_info":{"bg_color":"#00C0FF","bg_color_night":"#0B91BE","text":"出品"},"badge_type":1,"cover":"https://i0.hdslb.com/bfs/bangumi/image/19a2d014
+
+### C. all/v2 分页（UAonly）
+  page=1 http=200 code=0 video条数=20 next=2
+  page=2 http=200 code=0 video条数=20 next=3
+  page=3 http=200 code=0 video条数=20 next=4
+
+### D. search/type 分页（UAonly + buvid3）
+  page=1 http=200 code=0 条数=20
+  page=2 http=412 code=HTML 条数=0
+  page=3 http=200 code=0 条数=20
+
+### E. 最终汇总矩阵（纯 UA，无 cookie 无 Referer）
+  search/all/v2        http=200 code=0 len=31231
+  search/all(old)      http=200 code=0 len=28198
+  search/type          http=200 code=0 len=27217
+  view                 http=200 code=0 len=2116
+  card                 http=200 code=0 len=2469
+  player/wbi/v2        http=200 code=0 len=2136
+  nav                  http=200 code=-101 len=249
+  finger/spi           http=200 code=0 len=174
+  suggest              http=200 code=0 len=1491
+  popular              http=200 code=0 len=4806
+  ranking/v2           http=200 code=0 len=145661
+  archive/related      http=200 code=0 len=54467
+  archive/desc         http=200 code=0 len=109
+  reply/main           http=200 code=0 len=263698
+  relation/stat        http=200 code=0 len=159
+  player/pagelist      http=200 code=0 len=321

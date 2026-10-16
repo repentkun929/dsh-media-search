@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-10-15T10:15:48.596Z",
+  "note": "由 tools/snapshot_fixtures.mjs 从真实接口抓取并脱敏；只保留本插件读取的字段。用户名/正文/id 均为假值，结构为真。端点与 src/adapters/bilibili.ts 保持一致。",
+  "fixtures": {
+    "search-type.json": "search/type?search_type=video keyword=猫，前 3 条；duration 覆盖 8:9 / 21:24 / 1:02:33",
+    "search-type-p2.json": "search/type 第 2 页，前 2 条",
+    "view-detail.json": "view/detail bvid=BV1GJ411x7h7，含 View.stat/owner/pages（无合集）",
+    "view-detail-season.json": "view/detail bvid=BV1UQxhefEqs，带 ugc_season（用于测合集解析）",
+    "reply.json": "reply/main oid=bvid，前 3 条评论（非空）",
+    "related.json": "archive/related 前 3 条（owner/stat 是嵌套结构，验证 nestedToVideoItem）",
+    "card.json": "card mid=546195（昵称/签名为假值，level_info 保留真实结构）",
+    "relation.json": "relation/stat vmid=546195",
+    "popular.json": "popular 前 3 条",
+    "err-412.json": "风控响应体（-412），用于验证 TransportError kind=risk-control",
+    "err-html.html": "HTML 风控页，用于验证「先判 content-type 再 parse」这条规则",
+    "err-notfound.json": "视频不存在（-404）",
+    "err-reply-oid.json": "评论 oid 非法（12002），实测值",
+    "audio-head-8k.bin": "由 tools/snapshot_audio_head.mjs 抓取：BV1sHa966Eu6 的 DASH 音频流（id=30216, 66kbps, mp4a.40.2）前 8192 字节原始字节。顶层 box 链 ftyp(32)->moov(805)->sidx(3124)->moof(1040)->mdat(40875)。**sidx 起点 837 是奇数偏移**，这个夹具专门钉住「findSidx 不能按 4 字节对齐扫描」这条实测结论；timescale=48000，257 个片段，每段约 5.01s，索引总时长 1283.6s（接口 duration=1284s）。"
+  }
+}

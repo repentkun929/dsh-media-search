@@ -1,0 +1,28 @@
+=== A. 抖音搜索 cookie 依赖度（本机无登录 Cookie，只能证伪不能证实）===
+  A1 纯UA+Referer+假msToken: http=200 code=2483 msg=请先登录，再继续搜索吧
+  ttwid register: http=404 got=false
+  A3 /aweme/v1/web/general/search/single/ -> http=200 code=2483 msg=请先登录，再继续搜索吧
+  A3 /aweme/v1/web/search/item/ -> http=200 code=2483 msg=请先登录，再继续搜索吧
+
+=== B. B 站 player/playurl 音频流可下载性 ===
+  audio streams=3
+    [0] id=30232 codecs=mp4a.40.2 bandwidth=90492 baseUrl=https://xy111x6x227x8xy.mcdn.bilivideo.cn:8082/v1/resource/upgcxcode/3...
+    [1] id=30280 codecs=mp4a.40.2 bandwidth=161350 baseUrl=https://xy39x174x253x208xy.mcdn.bilivideo.cn:8082/v1/resource/upgcxcod...
+    [2] id=30216 codecs=mp4a.40.2 bandwidth=65683 baseUrl=https://xy183x249x5x216xy.mcdn.bilivideo.cn:8082/v1/resource/upgcxcode...
+  Range GET 音频: http=206 len=999864 -> 可流式取
+  Range GET + Referer: http=206 len=999864
+
+=== C. view 接口能给「总结」用的字段 ===
+  title: 【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧
+  desc  : 本期视频和@金铃子攻略组 合作，为大家带来鸣潮心攻略，感觉有帮助还请三连支持一下~
+  pubdate=1790731684 duration=1284s pages=1 stat.reply=10898 stat.like=40584
+  owner : 叫我棉被 (mid=6014992)
+  tname  :  / tid_v2=2064
+  ugc_season: 鸣潮 (id=2235437)
+  rights : {"bp":0,"elec":0,"download":1,"movie":0,"pay":0,"hd5":0,"no_reprint":1,"autoplay":1,"ugc_pay":0,"is_cooperation":0,"ugc_pay_preview":0,"no_background":0,"clean_mode":0,"is_stein_gate":0,"is_360":0,"no
+
+=== D. 评论量与热评结构 ===
+  all_count=10898 n=20
+  top reply: like=130 rcount=27 萌新在线提问
+  content: 滑坡神游，第一个小保底歪黑手，第二个大保底出的心第三个小保底歪卡卡罗[喜欢][喜欢][喜欢]现在已经垫了60抽了估计要吃第四个大保底，次次保底并且小保底必歪，真想问候库洛秦妈捏
+  -> all_count 上万说明可翻页抽样

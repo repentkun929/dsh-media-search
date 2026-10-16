@@ -1,0 +1,82 @@
+### A. 官方/纪录片/新闻类关键词找 CC 字幕
+  央视新闻 视频: 20 条
+  - 央视新闻 视频 BV1yxpR6WEQ8 字幕数=0 need_login=true 标题=【完整版】《新闻30分》2026年10月12日【主播：天亮、潘涛】（广告已全剪去
+  - 央视新闻 视频 BV1LMpo6CEvU 字幕数=0 need_login=false 标题=央视《新闻联播》2026年10月12日【郑丽 刚强】剪辑版
+  - 央视新闻 视频 BV129Hk6QEAC 字幕数=0 need_login=true 标题=央视新闻，让王楚钦戴金牌？林诗栋戴银牌？
+  - 央视新闻 视频 BV1ia411n7bt 字幕数=0 need_login=false 标题=CCTV央视
+  - 央视新闻 视频 BV1MebV6bE5w 字幕数=0 need_login=true 标题=央视出品《如愿》｜这盛世，如你所愿｜致敬先辈，山河无恙，盛世如愿
+  - 央视新闻 视频 BV13za66DEUV 字幕数=0 need_login=true 标题=【放送文化】国庆节 中华人民共和国成立77周年 当天 新闻联播 2026.10.
+  - 央视新闻 视频 BV1nmdhYqEwy 字幕数=0 need_login=false 标题=如何快速找到央视新闻的第一个视频
+  - 央视新闻 视频 BV12xax6AE9X 字幕数=0 need_login=false 标题=能在央视频看到这个太不容易了
+  新闻直播间: 20 条
+  - 新闻直播间 BV1ocp16UEZK 字幕数=0 need_login=false 标题=《新闻直播间》20261014 17 00
+  - 新闻直播间 BV1sYpm6vEH1 字幕数=0 need_login=false 标题=新闻直播间 20260816 16:00
+  - 新闻直播间 BV1nkpm6bENY 字幕数=0 need_login=false 标题=新闻直播间 20260815 16:00
+  - 新闻直播间 BV189Hx6mEUN 字幕数=0 need_login=true 标题=CCTV13《新闻直播间》20261005 16:00
+  - 新闻直播间 BV1j9p76zE1F 字幕数=0 need_login=true 标题=《新闻直播间》20261010 17 00
+  - 新闻直播间 BV1Expq68EKt 字幕数=0 need_login=false 标题=《新闻直播间》20261013 17 00
+  - 新闻直播间 BV1MMpU6rEzN 字幕数=0 need_login=true 标题=上午㍢新闻直播间2021.11.11片头片尾
+  - 新闻直播间 BV1LEWA6cErS 字幕数=0 need_login=true 标题=【放送事故】严於信说成5:00….10:00（20201029新闻直播间10:0
+  国家地理 纪录片: 20 条
+  - 国家地理 纪录片 BV1Yz4y1z7Nx 字幕数=0 need_login=true 标题=【英音】豆瓣9.8纪录片《我们的星球》| 走遍全球50多个国家地区，每一帧都是壁
+  - 国家地理 纪录片 BV1iR4y1G7Le 字幕数=0 need_login=true 标题=国家地理 科普纪录片50集全 英文字幕
+  - 国家地理 纪录片 BV1oJ41137oE 字幕数=0 need_login=true 标题=【Netflix】我们的星球 1080P珍藏版 Our Planet (2019
+  - 国家地理 纪录片 BV1igpi6QEbq 字幕数=0 need_login=false 标题=【全600+集】国家地理《Our World》第1版（教材PDF+视频+音频+白
+  - 国家地理 纪录片 BV1Fw411a7kr 字幕数=0 need_login=true 标题=【纪录片】完美星球–天气（第三集）
+  - 国家地理 纪录片 BV1jW411u7Do 字幕数=0 need_login=true 标题=【纪录片】国家地理百年纪念典藏（共99集）
+  - 国家地理 纪录片 BV1rx4y197Gg 字幕数=0 need_login=true 标题=国家地理纪录片
+  - 国家地理 纪录片 BV1Vf4y1J79P 字幕数=0 need_login=true 标题=最适合孩子看的科普启蒙双语百科《国家地理中文网-小探险家》
+  BBC 纪录片 中文字幕: 20 条
+  - BBC 纪录片 中文字幕 BV1SJp16iEjX 字幕数=0 need_login=true 标题=BBC纪录片：中国整形热潮内幕：「我做了100次手术，仍会继续」
+  - BBC 纪录片 中文字幕 BV1hZp166EHA 字幕数=0 need_login=true 标题=BBC纪录片调查走近柬埔寨诈骗园的杀猪盘爱情陷阱
+  - BBC 纪录片 中文字幕 BV127411n7nj 字幕数=0 need_login=true 标题=【中英双语字幕】BBC官方音标教程 英式英语发音零基础教学 标准英语发音课程 英
+  - BBC 纪录片 中文字幕 BV1Js411T7RY 字幕数=0 need_login=true 标题=【纪录】中国新年 Chinese New Year-The Biggest Ce
+  - BBC 纪录片 中文字幕 BV1EqY1zhEov 字幕数=0 need_login=true 标题=香港主權移交：BBC當時如何報導？－ BBC News 中文 (1080p)
+  - BBC 纪录片 中文字幕 BV1aLp16uEqL 字幕数=0 need_login=true 标题=【B站最稳更新】BBC新闻 20261015 | BBC News | 英语半小
+  - BBC 纪录片 中文字幕 BV1nip16REQX 字幕数=0 need_login=true 标题=BBC Newsround 2026.10.14 中英独立双字幕 日更
+  - BBC 纪录片 中文字幕 BV1Yi4y1372S 字幕数=0 need_login=true 标题=BBC音标官方课程（中文字幕）剪辑版、适合上课教学用
+  NHK 纪录片: 20 条
+  - NHK 纪录片 BV1tp4y197C4 字幕数=0 need_login=false 标题=【NHK纪录片】食之起源系列全集【MT字幕组】
+  - NHK 纪录片 BV16Zpd6nE9k 字幕数=0 need_login=true 标题=BBC纪录片追查痴汉：谁在售卖中国日本性侵偷拍影片
+  - NHK 纪录片 BV1Wf4y1A792 字幕数=0 need_login=false 标题=【电视纪录片】下南洋 全10集
+  - NHK 纪录片 BV1KAp96nEGH 字幕数=0 need_login=false 标题=【NHK】人民公敌｜柬埔寨记者十年寻访红色高棉加害者
+  - NHK 纪录片 BV1P4411g7fM 字幕数=0 need_login=false 标题=【720P】纪录片编辑室【2017-2019】【持续上传】
+  - NHK 纪录片 BV1ce411x7yB 字幕数=0 need_login=true 标题=纪录片《人生第一次》全12集片尾集锦 | 百搭BGM歌曲《推开世界的门》感动人生
+  - NHK 纪录片 BV1m44y177VN 字幕数=0 need_login=false 标题=中文字幕NHK《自行车骑行日本 Cycle Around Japan 》
+  - NHK 纪录片 BV1Lxpg61Ew3 字幕数=0 need_login=false 标题=纪录片《北纬三十度》6集
+  哔哩哔哩纪录片: 20 条
+  - 哔哩哔哩纪录片 BV1iT4y197iT 字幕数=0 need_login=false 标题=【纪录片】食为天 第四季-THE F WORD- S04 9
+  - 哔哩哔哩纪录片 BV1qGEP6xEdN 字幕数=0 need_login=true 标题=【大型纪录片《1米5小女人约见2米壮汉，激战一夜被玩死》-哔哩哔哩】 https
+  - 哔哩哔哩纪录片 BV1WE411B74c 字幕数=0 need_login=false 标题=【守护解放西】酒后起争执，少年竟提刀追砍路人！？
+  - 哔哩哔哩纪录片 BV1xgho6DE6q 字幕数=0 need_login=true 标题=真相：妓女一天接客20次，下体的真实感受
+  - 哔哩哔哩纪录片 BV1Aa4y1a7mW 字幕数=0 need_login=true 标题=日本性教育动画
+  - 哔哩哔哩纪录片 BV11itD6ZE2J 字幕数=0 need_login=true 标题=Up主探索中，欢迎收看求三连！
+  - 哔哩哔哩纪录片 BV1pGaB6hE9B 字幕数=0 need_login=true 标题=大型纪录片《姐姐被弟弟钻井》
+  - 哔哩哔哩纪录片 BV1rSht6hEPt 字幕数=0 need_login=true 标题=男人C进身体的时候，女人有什么感受，听听五位熟女说的心里话！
+  航拍中国: 20 条
+  - 航拍中国 BV1pqpw6KEsD 字幕数=0 need_login=true 标题=当我用小说视角打开航拍中国
+  - 航拍中国 BV1g5411j7JF 字幕数=0 need_login=false 标题=十一，云南等你
+  - 航拍中国 BV1JTpb66ER3 字幕数=0 need_login=false 标题=王备—航拍中国主题曲
+  - 航拍中国 BV1ns4y1e7i1 字幕数=0 need_login=false 标题=航拍中国 | 4K
+  - 航拍中国 BV1bG411w75j 字幕数=0 need_login=false 标题=航拍中国 ｜ 第一期
+  - 航拍中国 BV1tt4y1S76t 字幕数=0 need_login=false 标题=【4K航拍中国 四川篇】一切景语皆情语，这是你第几次为天府之国心动？
+  - 航拍中国 BV1tKzVY9En5 字幕数=0 need_login=true 标题=航拍中国片头开幕4K四季合集
+  - 航拍中国 BV1sTK86rERE 字幕数=0 need_login=false 标题=《航拍广东》20集
+  地球脉动: 20 条
+  - 地球脉动 BV1uSLEzdEJr 字幕数=0 need_login=true 标题=《地球脉动》第一集两极之间
+  - 地球脉动 BV1Qp4y1S7Qp 字幕数=0 need_login=true 标题=【Netflix网飞中英文双语字幕4K超高清画质收藏版】地球脉动创始人倾情打造 
+  - 地球脉动 BV15Jpb6aEdB 字幕数=0 need_login=true 标题=地球脉动 大兴安岭
+  - 地球脉动 BV1TFdZYsER5 字幕数=0 need_login=true 标题=《地球脉动》第三季 第3集——广袤之地
+  - 地球脉动 BV1BNbX6DEgx 字幕数=0 need_login=true 标题=【国语】9.7高分纪录片《我们的星球》 | 第一集：一个星球
+  - 地球脉动 BV13gKkzMEkA 字幕数=0 need_login=false 标题=《地球脉动》的小曲儿，四分钟纯享版～～～
+  - 地球脉动 BV1y6eg6sELX 字幕数=0 need_login=false 标题=看纪录片学英语！《地球脉动》1-3季纯英字幕+双语字幕+无字幕+剧本S101
+  - 地球脉动 BV1Pt5q6SEyc 字幕数=0 need_login=true 标题=从冰川到深海，从草原到兩林，见证生命在环境变迁中的坚守与适应，每一帧都是对地球家
+
+### B. 番剧/影视区（media_bangumi）
+  media_bangumi data_len=0
+  media_ft data_len=3
+    {"type":"media_ft","media_id":28339845,"title":"<em class=\"keyword\">航拍中国</em> 第四季","org_title":"Aerial China4","media_type":3,"cv":"李龙滨","staff":"导演：余乐、李浩洋\n","season_id":43272,"is_avid":false,"hit_columns":[],"hit_epids":"","season_type":3,"season_type_name":"纪录片","selection_style":"grid","ep_size":11,"url":"https://www.bilibili.com/bangumi/play/ss43272","button_text":"立即观看","is_follow":0,"is_s
+    {"type":"media_ft","media_id":28229730,"title":"<em class=\"keyword\">航拍中国</em> 第一季","org_title":"<em class=\"keyword\">航拍中国</em> 第一季","media_type":3,"cv":"","staff":"导演：余乐、林婕、张晓敏、杨光照、夏萌、马静、江小玲\n编剧：黄康源、陈晞、高洁、杨梦嫣","season_id":34282,"is_avid":false,"hit_columns":[],"hit_epids":"","season_type":3,"season_type_name":"纪录片","selection_style":"horizontal","ep_size":6,"url":"https://www.bilibili.com/bangu
+    {"type":"media_ft","media_id":28228969,"title":"<em class=\"keyword\">航拍中国</em> 第三季","org_title":"<em class=\"keyword\">航拍中国</em> 第三季","media_type":3,"cv":"","staff":"导演：李浩洋、赵晨伊\n","season_id":33546,"is_avid":false,"hit_columns":[],"hit_epids":"","season_type":3,"season_type_name":"纪录片","selection_style":"horizontal","ep_size":10,"url":"https://www.bilibili.com/bangumi/play/ss33546","button_text":
+
+!!! 仍未找到 CC 字幕视频

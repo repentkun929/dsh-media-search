@@ -1,0 +1,94 @@
+===== SEARCH_ALL_V2_struct =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 29716
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"12565258862459419931","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total
+CODE: 0  MESSAGE: OK
+
+ALL_V2_DATA_KEYS: ["seid","page","pagesize","next","numResults","numPages","suggest_keyword","rqt_type","exp_list","is_hit_web_inf","egg_hit","pageinfo","top_tlist","show_column","show_module_list","app_display_option","in_black_key","in_white_key","result","is_search_page_grayed"]
+ALL_V2_RESULT_KEYS: ["0","1","2","3","4","5","6","7","8","9","10","11"]
+
+ALL_V2_VIDEO_COUNT: 0
+SAMPLE: null
+
+!! 无样本，跳过 view/card/player 实测
+===== ALL_V2_with_Referer =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Origin":"https://www.bilibili.com"}
+HTTP_STATUS: 200
+BODY_LEN: 29716
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"11877423736222450704","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total
+CODE: 0  MESSAGE: OK
+
+===== ALL_V2_noReferer =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 29715
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"6390811269729373404","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total"
+CODE: 0  MESSAGE: OK
+
+===== ALL_OLD_with_Referer =====
+URL: https://api.bilibili.com/x/web-interface/search/all?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Origin":"https://www.bilibili.com"}
+HTTP_STATUS: 200
+BODY_LEN: 27990
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"6502891748573604436","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total":0},"bang
+CODE: 0  MESSAGE: OK
+
+===== SEARCH_TYPE_full_headers =====
+URL: https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Origin":"https://www.bilibili.com","Accept":"application/json, text/plain, */*","Accept-Language":"zh-CN,zh;q=0.9","Sec-Fetch-Dest":"empty","Sec-Fetch-Mode":"cors","Sec-Fetch-Site":"same-site","sec-ch-ua":"\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\""}
+HTTP_STATUS: 412
+BODY_LEN: 52
+BODY_FIRST_500: {"code":-412,"message":"request was banned","ttl":1}
+CODE: -412  MESSAGE: request was banned
+
+===== NAV_for_wbi =====
+URL: https://api.bilibili.com/x/web-interface/nav
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200
+BODY_LEN: 249
+BODY_FIRST_500: {"code":-101,"message":"账号未登录","ttl":1,"data":{"isLogin":false,"wbi_img":{"img_url":"https://i0.hdslb.com/bfs/wbi/7cd084941338484aae1ad9425b84077c.png","sub_url":"https://i0.hdslb.com/bfs/wbi/4932caff0ff746eab6f01bf08b70ac45.png"},"ip_region":"CN"}}
+CODE: -101  MESSAGE: 账号未登录
+
+IMG_KEY: 7cd084941338484aae1ad9425b84077c  SUB_KEY: 4932caff0ff746eab6f01bf08b70ac45
+MIXIN_KEY: ea1db124af3c7062474693fa704f4ff8
+
+===== SEARCH_TYPE_wbi_signed =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1&search_type=video&wts=1792045145&w_rid=f2203950380ada2103422bf726a634cc
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200
+BODY_LEN: 27740
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"18302813665990390674","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"result":[{"type":"video","id":117357364253026,"author":"叫我棉被","mid":6014992,"typeid":"172","typename":"手机游戏","arcurl":"http://www.bilibili.com/video/av117357364253026","aid":117357364253026,"bvid":"BV1sHa966Eu6","title":"【\u003cem class=\"keyword
+CODE: 0  MESSAGE: OK
+NOTE: w_rid + Referer
+
+===== SEARCH_TYPE_wbi_signed_noReferer =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1&search_type=video&wts=1792045145&w_rid=f2203950380ada2103422bf726a634cc
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 412
+BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON)  MESSAGE: N/A
+NOTE: w_rid，无 Referer
+
+===== ALL_V2_wbi_signed =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&wts=1792045145&w_rid=0968a0eb78b26a7fa9802e1bdef70ff8
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200
+BODY_LEN: 29716
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"18252508910631887408","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total
+CODE: 0  MESSAGE: OK
+NOTE: w_rid + Referer

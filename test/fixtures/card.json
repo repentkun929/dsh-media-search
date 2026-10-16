@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "card": {
+      "mid": 546195,
+      "name": "up_0001",
+      "face": "http://i0.hdslb.com/bfs/face/bc5ca101313d4db223c395d64779e76eb3482d60.jpg",
+      "sign": "signature_placeholder",
+      "level_info": {
+        "current_level": 6
+      }
+    },
+    "follower": 20842610
+  }
+}

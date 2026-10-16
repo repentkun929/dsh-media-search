@@ -1,0 +1,36 @@
+=== A. search/all/v2 的 order 参数是否生效 ===
+  order="(none)" http=200 code=0 n=20 first3: BV1sHa966Eu6(play=1272117) BV1PupG6NEFa(play=42477) BV1DKa96SEgE(play=849360)  [新顺序]
+  order="&order=totalrank" http=200 code=0 n=20 first3: BV1sHa966Eu6(play=1272117) BV1PupG6NEFa(play=42481) BV1DKa96SEgE(play=849360)  [新顺序]
+  order="&order=click" http=200 code=0 n=20 first3: BV1sHa966Eu6(play=1272117) BV1PupG6NEFa(play=42481) BV1DKa96SEgE(play=849360)  [新顺序]
+  order="&order=pubdate" http=200 code=0 n=20 first3: BV1sHa966Eu6(play=1272117) BV1PupG6NEFa(play=42481) BV1DKa96SEgE(play=849360)  [新顺序]
+  order="&order=dm" http=200 code=0 n=20 first3: BV1sHa966Eu6(play=1272117) BV1PupG6NEFa(play=42481) BV1DKa96SEgE(play=849360)  [新顺序]
+  order="&order=stow" http=200 code=0 n=20 first3: BV1sHa966Eu6(play=1272117) BV1PupG6NEFa(play=42481) BV1DKa96SEgE(play=849360)  [新顺序]
+
+=== B. ranking/v2 分区 rid ===
+  rid=0(全站) http=200 code=0 n=100
+  rid=1(动画) http=200 code=0 n=95
+  rid=17(单机游戏) http=200 code=-400 n=0
+  rid=172(手游) http=200 code=-400 n=0
+  rid=207(知识) http=200 code=-400 n=0
+
+=== C. reply/main 翻页（oid=aid）===
+  next=1 http=200 code=0 n=20 cursor.next=2 allCount=10898 isEnd=false
+    first: like=130 萌新在线提问 :: 滑坡神游，第一个小保底歪黑手，第二个大保底出的心第三个小保底歪卡卡罗[喜欢][喜欢][喜欢]现在已经
+  next=2 http=200 code=0 n=19 cursor.next=3 allCount=10898 isEnd=false
+    first: like=5 新世界的第七章 :: 1.1的今汐还能喝到汤，不错不错，我也直接把这个队伍改名成“无悔华夏”，原因懂得都懂[OK]
+  next=3 http=200 code=0 n=20 cursor.next=4 allCount=10898 isEnd=false
+    first: like=6 凌烟居者 :: 有点区了，等锁看看情况，再这样我要开炮了，那个声骸扫码爆率，我火气很大啊[笑哭]
+
+=== D. duration 字符串形态 ===
+  21:24 | 3:54 | 20:38 | 4:53 | 0:16 | 4:36 | 1:4 | 1:46
+  pic 形态: //i2.hdslb.com/bfs/archive/37b09cd40fb6af8a379a0916ea0b17a0b7b1bcd8.jpg
+  title 原文: 【<em class="keyword">鸣潮</em>】<em class="keyword">心月狐</em>攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧
+
+=== E. view 里能否直接拿 aid（供 reply/main 用）===
+  aid=117357364253026 bvid=BV1sHa966Eu6 cid=42322496836 pages=1
+  -> reply/main 用 oid=aid 即可，无需额外请求
+
+=== F. all/v2 深翻页 ===
+  page=10 http=200 code=0 n=20 next=11
+  page=25 http=200 code=0 n=20 next=26
+  page=50 http=200 code=0 n=20 next=undefined

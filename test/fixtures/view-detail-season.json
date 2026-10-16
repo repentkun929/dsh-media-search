@@ -1,0 +1,64 @@
+{
+  "code": 0,
+  "data": {
+    "View": {
+      "bvid": "BV1UQxhefEqs",
+      "aid": 113229833506751,
+      "cid": 26086805027,
+      "title": "【法律知识】6.刑法（刑法原则，适用范围，犯罪主体，犯罪主观，不作为犯罪）",
+      "tname": "",
+      "pubdate": 1727750638,
+      "duration": 3035,
+      "copyright": 1,
+      "desc": "-",
+      "stat": {
+        "view": 14482,
+        "danmaku": 16,
+        "reply": 21,
+        "favorite": 373,
+        "coin": 82,
+        "like": 166,
+        "share": 61
+      },
+      "owner": {
+        "mid": 1000000,
+        "name": "up_0001",
+        "face": "https://i0.hdslb.com/bfs/face/fa9c6b93a836b7edc838611e512f44e4330dbdd1.jpg"
+      },
+      "pages": [
+        {
+          "cid": 26086805027,
+          "page": 1,
+          "part": "【法律知识】6.刑法（刑法原则，适用范围，犯罪主体，犯罪主观，不作为犯罪）",
+          "duration": 3035
+        }
+      ],
+      "ugc_season": {
+        "id": 3873953,
+        "title": "season_placeholder",
+        "sections": [
+          {
+            "title": "section_1",
+            "episodes": [
+              {
+                "title": "episode_1",
+                "bvid": "BV1fYpGeEEEY",
+                "aid": 800000
+              },
+              {
+                "title": "episode_2",
+                "bvid": "BV1nHHoerEah",
+                "aid": 800001
+              },
+              {
+                "title": "episode_3",
+                "bvid": "BV1TCpLeuEH9",
+                "aid": 800002
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

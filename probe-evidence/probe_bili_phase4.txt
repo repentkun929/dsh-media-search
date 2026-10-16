@@ -1,0 +1,243 @@
+WBI imgKey=7cd084941338484aae1ad9425b84077c subKey=4932caff0ff746eab6f01bf08b70ac45 mixinKey=ea1db124af3c7062474693fa704f4ff8
+
+===== FINGER_SPI =====
+URL: https://api.bilibili.com/x/frontend/finger/spi
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 174
+BODY_FIRST_500: {"code":0,"data":{"b_3":"3491B2DA-C856-E2D4-F281-857FCA03291287205infoc","b_4":"363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="},"message":"ok"}
+CODE: 0  MESSAGE: ok
+
+BUVID3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc BUVID4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA==
+
+### 矩阵开始（每请求间隔 5s）
+
+===== T1_type_wbi_Referer_cookie =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1&search_type=video&wts=1792045285&w_rid=6f3056c62ec7a60b7246cf333d060260
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 28700
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"16438368474863085107","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"103600":true,"105202":true,"106002":true,"5509":true,"64778101":true,"65785102":true,"6606":true,"70529100":true,"72412103":true,"78597100":true,"78772101":true,"79251103":true,"80194100":true,"80394101":true,"81174101":true,"81242107":true,"81701100":true,"81989100":true,"83294101":true,"83728102":true,"
+CODE: 0  MESSAGE: OK
+NOTE: wbi+Referer+buvid cookie
+
+===== T2_type_wbi_Referer_nocookie =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1&search_type=video&wts=1792045290&w_rid=9e93f8d6d3cbb4daec794df8d78a0b2e
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 412  BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON/HTML)  MESSAGE: N/A
+NOTE: wbi+Referer，无 cookie
+
+===== T3_type_wbi_nocookie_noReferer =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1&search_type=video&wts=1792045295&w_rid=c1247714525e83e656b5689c4e2ea475
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 412  BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON/HTML)  MESSAGE: N/A
+NOTE: wbi，无 Referer，无 cookie
+
+===== T4_type_plain_full_headers =====
+URL: https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA==","Accept":"application/json, text/plain, */*","Accept-Language":"zh-CN,zh;q=0.9"}
+HTTP_STATUS: 200  BODY_LEN: 28700
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"10914652068552130938","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"103600":true,"105202":true,"106002":true,"5509":true,"64778101":true,"65785102":true,"6606":true,"70529100":true,"72412103":true,"78597100":true,"78772101":true,"79251103":true,"80194100":true,"80394101":true,"81174101":true,"81242107":true,"81701100":true,"81989100":true,"83294101":true,"83728102":true,"
+CODE: 0  MESSAGE: OK
+NOTE: 无 wbi，带 Referer+buvid cookie
+
+===== T5_type_plain_UAonly =====
+URL: https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 412  BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON/HTML)  MESSAGE: N/A
+NOTE: 只带 UA
+
+===== T6_all_v2_plain_UAonly =====
+URL: https://api.bilibili.com/x/web-interface/search/all/v2?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200  BODY_LEN: 30245
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"6426161395960461512","page":1,"pagesize":20,"next":2,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total"
+CODE: 0  MESSAGE: OK
+NOTE: 对照：all/v2 只带 UA
+
+===== T7_all_old_plain_UAonly =====
+URL: https://api.bilibili.com/x/web-interface/search/all?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200  BODY_LEN: 27662
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"seid":"4434728298646500115","page":1,"pagesize":20,"numResults":1000,"numPages":50,"suggest_keyword":"","rqt_type":"search","exp_list":{"100010":true,"5500":true,"6699":true},"is_hit_web_inf":false,"egg_hit":0,"pageinfo":{"tv":{"numResults":0,"pages":0,"total":0},"user":{"numResults":0,"pages":0,"total":0},"movie":{"numResults":0,"pages":0,"total":0},"operation_card":{"numResults":0,"pages":0,"total":0},"upuser":{"numResults":0,"pages":0,"total":0},"bang
+CODE: 0  MESSAGE: OK
+NOTE: 对照：老版 all 只带 UA
+
+===== T8_type_wbi_Referer_bangumi =====
+URL: https://api.bilibili.com/x/web-interface/search/type?keyword=%E9%B8%A3%E6%BD%AE%20%E5%BF%83%E6%9C%88%E7%8B%90&page=1&search_type=bangumi&wts=1792045322&w_rid=d9277cb64c4ee783ddfba20326f4012a
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 36
+BODY_FIRST_500: {"code":-1200, "message":"被降级过滤的请求"}
+CODE: -1200  MESSAGE: 被降级过滤的请求
+NOTE: search_type=bangumi
+
+===== P1_player_wbi_v2_signed =====
+URL: https://api.bilibili.com/x/player/wbi/v2?aid=117357364253026&cid=42322496836&wts=1792045327&w_rid=b4d720ff2f685516f018a6b6189b662e
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 3664
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"aid":117357364253026,"bvid":"BV1sHa966Eu6","allow_bp":false,"no_share":false,"cid":42322496836,"max_limit":3000,"page_no":1,"has_next":false,"ip_info":{"ip":"120.219.119.91","zone_ip":" 10.158.46.16","zone_id":4505616,"country":"中国","province":"河南","city":"郑州"},"login_mid":0,"login_mid_hash":"","is_owner":false,"name":"","permission":"0","level_info":{"current_level":0,"current_min":0,"current_exp":0,"next_exp":0,"level_up":0},"vip":{"type":0,"status":0,
+CODE: 0  MESSAGE: OK
+NOTE: wbi+Referer+cookie
+
+===== P2_player_wbi_v2_raw =====
+URL: https://api.bilibili.com/x/player/wbi/v2?aid=117357364253026&cid=42322496836
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 3665
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"aid":117357364253026,"bvid":"BV1sHa966Eu6","allow_bp":false,"no_share":false,"cid":42322496836,"max_limit":3000,"page_no":1,"has_next":false,"ip_info":{"ip":"120.219.119.91","zone_ip":" 10.163.198.18","zone_id":4505616,"country":"中国","province":"河南","city":"郑州"},"login_mid":0,"login_mid_hash":"","is_owner":false,"name":"","permission":"0","level_info":{"current_level":0,"current_min":0,"current_exp":0,"next_exp":0,"level_up":0},"vip":{"type":0,"status":0
+CODE: 0  MESSAGE: OK
+
+===== P3_player_old_v2 =====
+URL: https://api.bilibili.com/x/player/v2?aid=117357364253026&cid=42322496836
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 3665
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"aid":117357364253026,"bvid":"BV1sHa966Eu6","allow_bp":false,"no_share":false,"cid":42322496836,"max_limit":3000,"page_no":1,"has_next":false,"ip_info":{"ip":"120.219.119.91","zone_ip":" 10.158.183.13","zone_id":4505616,"country":"中国","province":"河南","city":"郑州"},"login_mid":0,"login_mid_hash":"","is_owner":false,"name":"","permission":"0","level_info":{"current_level":0,"current_min":0,"current_exp":0,"next_exp":0,"level_up":0},"vip":{"type":0,"status":0
+CODE: 0  MESSAGE: OK
+NOTE: 老版 player v2
+
+===== P4_player_wbi_v2_noReferer =====
+URL: https://api.bilibili.com/x/player/wbi/v2?aid=117357364253026&cid=42322496836&wts=1792045342&w_rid=990d5da959d3386495db3428ad0b685c
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+HTTP_STATUS: 200  BODY_LEN: 3665
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"aid":117357364253026,"bvid":"BV1sHa966Eu6","allow_bp":false,"no_share":false,"cid":42322496836,"max_limit":3000,"page_no":1,"has_next":false,"ip_info":{"ip":"120.219.119.91","zone_ip":" 10.163.150.25","zone_id":4505616,"country":"中国","province":"河南","city":"郑州"},"login_mid":0,"login_mid_hash":"","is_owner":false,"name":"","permission":"0","level_info":{"current_level":0,"current_min":0,"current_exp":0,"next_exp":0,"level_up":0},"vip":{"type":0,"status":0
+CODE: 0  MESSAGE: OK
+NOTE: wbi，无 Referer 无 cookie
+
+===== P5_player_playurl =====
+URL: https://api.bilibili.com/x/player/playurl?bvid=BV1sHa966Eu6&cid=42322496836&qn=64&fnval=16
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 39840
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"from":"local","result":"suee","message":"","quality":64,"format":"flv720","timelength":1283599,"accept_format":"flv_p60,flv,flv720,flv480,mp4","accept_description":["高清 1080P60","高清 1080P","高清 720P","清晰 480P","流畅 360P"],"accept_quality":[116,80,64,32,16],"video_codecid":7,"seek_param":"start","seek_type":"offset","dash":{"duration":1284,"minBufferTime":1.5,"min_buffer_time":1.5,"video":[{"id":32,"baseUrl":"https://xy171x43x247x44xy.mcdn.bilivideo.cn:8082
+CODE: 0  MESSAGE: OK
+NOTE: 播放地址（看匿名能到哪一步）
+
+===== D1_archive_stat =====
+URL: https://api.bilibili.com/x/web-interface/archive/stat?bvid=BV1sHa966Eu6
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 404  BODY_LEN: 5633
+BODY_FIRST_500: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+    <title>
+CODE: N/A(非JSON/HTML)  MESSAGE: N/A
+
+===== D2_up_stat =====
+URL: https://api.bilibili.com/x/relation/stat?vmid=6014992
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 157
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"mid":6014992,"following":1803,"whisper":0,"black":0,"follower":2081605,"fans_medal_toast":null,"fans_effect":null}}
+CODE: 0  MESSAGE: OK
+
+===== D3_up_videos =====
+URL: https://api.bilibili.com/x/series/recArchivesByKeywords?mid=6014992&keywords=&ps=5
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 2556
+BODY_FIRST_500: {"code":0,"message":"0","ttl":1,"data":{"archives":[{"aid":117443431239982,"title":"【终末地】祀首日攻略 冰队火队两开花 队伍解析+养成推荐","pubdate":1792044922,"ctime":1792044922,"state":0,"pic":"http://i0.hdslb.com/bfs/archive/3d774ed3d0ec23f3473a6b39fd0d88d155e9ce2c.jpg","duration":517,"stat":{"view":3896},"bvid":"BV1ZRJk6PEq8","ugc_pay":0,"interactive_video":false,"enable_vt":0,"vt_display":"","playback_position":0,"desc":"本期视频为大家带来【明日方舟终末地】祀的首日开荒攻略，感觉有帮助还请三连支持一下~\n详细配队攻略正在制作中，有需要的家人可以先关注一手~\n\n开头整活原视频：BV1ifpM65E5d \
+CODE: 0  MESSAGE: 0
+
+===== D4_space_arc =====
+URL: https://api.bilibili.com/x/space/wbi/arc/search?mid=6014992&ps=5&pn=1&order=pubdate
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 412  BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON/HTML)  MESSAGE: N/A
+NOTE: UP 主视频列表（wbi 路径版）
+
+===== D5_space_arc_signed =====
+URL: https://api.bilibili.com/x/space/arc/search?mid=6014992&order=pubdate&pn=1&ps=5&wts=1792045365&w_rid=b23d8f2e6aba4f1fef7bbe46728ad54a
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 412  BODY_LEN: 3286
+BODY_FIRST_500: <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+ 
+CODE: N/A(非JSON/HTML)  MESSAGE: N/A
+
+===== D6_search_suggest =====
+URL: https://api.bilibili.com/x/web-interface/suggest?term=%E9%B8%A3%E6%BD%AE
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 200  BODY_LEN: 1464
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"exp_str":"","code":0,"result":{"tag":[{"value":"鸣潮","term":"鸣潮","ref":0,"name":"\u003cem class=\"suggest_high_light\"\u003e鸣潮\u003c/em\u003e","spid":5,"type":""},{"value":"鸣潮新手攻略","term":"鸣潮新手攻略","ref":0,"name":"\u003cem class=\"suggest_high_light\"\u003e鸣潮\u003c/em\u003e新手攻略","spid":5,"type":""},{"value":"鸣潮角色强度排行榜","term":"鸣潮角色强度排行榜","ref":0,"name":"\u003cem class=\"suggest_high_light\"\u003e鸣潮\u003c/em\u003e角色强度排行榜","spid":5,"type":""},{"value":"鸣潮心月狐
+CODE: 0  MESSAGE: OK
+
+===== D7_hot_search =====
+URL: https://api.bilibili.com/x/web-interface/hot/search/index
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/"}
+HTTP_STATUS: 404  BODY_LEN: 5633
+BODY_FIRST_500: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="zh-cn">
+
+<head>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="spm_prefix" content="333.937">
+    <title>
+CODE: N/A(非JSON/HTML)  MESSAGE: N/A
+
+===== D8_reply_main =====
+URL: https://api.bilibili.com/x/v2/reply/main?oid=117357364253026&type=1&mode=3
+HEADERS: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","Referer":"https://www.bilibili.com/","Cookie":"buvid3=3491B2DA-C856-E2D4-F281-857FCA03291287205infoc; buvid4=363AC430-AE72-9FDA-5F5D-1BF6BA8FE01687205-026101514-66eXEOSNglfGA/6bVzockA=="}
+HTTP_STATUS: 200  BODY_LEN: 70441
+BODY_FIRST_500: {"code":0,"message":"OK","ttl":1,"data":{"cursor":{"is_begin":true,"prev":0,"next":2,"is_end":true,"pagination_reply":{},"session_id":"","mode":3,"mode_text":"","all_count":10896,"support_mode":[2,3],"name":"热门评论"},"replies":[{"rpid":319064409616,"oid":117357364253026,"type":1,"mid":457182422,"root":0,"parent":0,"dialog":0,"count":31,"rcount":27,"state":0,"fansgrade":0,"attr":0,"ctime":1790734583,"mid_str":"457182422","oid_str":"117357364253026","rpid_str":"319064409616","root_str":"0","parent_s
+CODE: 0  MESSAGE: OK
+NOTE: 评论区（匿名）

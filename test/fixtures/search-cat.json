@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "data": {
+    "seid": "0",
+    "page": 1,
+    "pagesize": 20,
+    "numResults": 1000,
+    "numPages": 50,
+    "next": 2,
+    "result": [
+      {
+        "result_type": "media_bangumi",
+        "data": []
+      },
+      {
+        "result_type": "video",
+        "data": [
+          {
+            "type": "live_room",
+            "aid": 900000,
+            "bvid": "",
+            "title": "<em class=\"keyword\">猫</em>哥重回18.5斤",
+            "author": "up_0001",
+            "mid": 1000000,
+            "play": null,
+            "video_review": 0,
+            "review": 0,
+            "favorites": 0,
+            "like": 0,
+            "duration": "",
+            "pubdate": 0,
+            "typename": "",
+            "tag": "",
+            "pic": "//i0.hdslb.com/bfs/live-key-frame/keyframe10151805000031937539x614yo.jpg",
+            "description": "",
+            "arcurl": ""
+          },
+          {
+            "type": "video",
+            "aid": 900001,
+            "bvid": "BV12XpU66Eid",
+            "title": "还以为是科学养<em class=\"keyword\">猫</em>，原来是东亚家庭啊",
+            "author": "up_0002",
+            "mid": 1000001,
+            "play": 18638,
+            "video_review": 58,
+            "review": 72,
+            "favorites": 121,
+            "like": 1776,
+            "duration": "4:37",
+            "pubdate": 1792033365,
+            "typename": "喵星人",
+            "tag": "秋日动物园,狸花猫,生活记录,可爱,喵星人",
+            "pic": "//i0.hdslb.com/bfs/archive/e96dc2a1e65151b161831a88fd6e2bf37470dbec.jpg",
+            "description": "-",
+            "arcurl": "http://www.bilibili.com/video/av117441199871995"
+          },
+          {
+            "type": "live_room",
+            "aid": 900002,
+            "bvid": "",
+            "title": "一人一<em class=\"keyword\">猫</em>游戏日常",
+            "author": "up_0003",
+            "mid": 1000002,
+            "play": null,
+            "video_review": 0,
+            "review": 0,
+            "favorites": 0,
+            "like": 0,
+            "duration": "",
+            "pubdate": 0,
+            "typename": "",
+            "tag": "",
+            "pic": "//i0.hdslb.com/bfs/live-key-frame/keyframe10151805000021094185lfxm1b.jpg",
+            "description": "",
+            "arcurl": ""
+          }
+        ]
+      },
+      {
+        "result_type": "bili_user",
+        "data": []
+      }
+    ]
+  }
+}
