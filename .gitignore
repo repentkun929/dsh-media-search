@@ -3,6 +3,10 @@ node_modules/
 .tmp_*
 *.log
 
+# 宿主侧客户端类型包（scripts/fetch_host_types.py 从 npm 下的 0.2.1-rc.2 声明文件）。
+# 体积大、可随时重下，不入库。
+.host-types/
+
 # 账号凭证，绝不入库
 *.cookie
 .cookie*

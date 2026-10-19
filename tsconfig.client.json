@@ -12,7 +12,13 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@deepseek-ai/*": ["./node_modules/@deepseek-ai/*"]
+      "@deepseek-ai/*": ["./node_modules/@deepseek-ai/*"],
+      "@deepseek-ai/dsh-client-store": [".host-types/dsh-client-store"],
+      "@deepseek-ai/dsh-client-store/*": [".host-types/dsh-client-store/*"],
+      "@deepseek-ai/dsh-client-ui-slots": [".host-types/dsh-client-ui-slots"],
+      "@deepseek-ai/dsh-client-ui-slots/*": [".host-types/dsh-client-ui-slots/*"],
+      "@deepseek-ai/dsh-client-ui-tool": [".host-types/dsh-client-ui-tool"],
+      "@deepseek-ai/dsh-client-ui-tool/*": [".host-types/dsh-client-ui-tool/*"]
     }
   },
   "include": ["src/client/**/*.ts", "src/client/**/*.tsx", "src/fragment.ts"]

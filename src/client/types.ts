@@ -15,15 +15,34 @@
 // - dsh-client-ui-tool/lib/client.js:1009  meta 读取：非 object / null / 数组 → null；
 //   !('kind' in block) || isError → null
 // - dshmarket/client/client.js            ctx.slots.register 返回 disposer
+//
+// 已用 npm 包 @deepseek-ai/dsh-client-ui-tool@0.2.1-rc.2 的 lib/types 核实
+// （lib/types/client/contract/slots.d.ts）：'tool.call.toolview' 是 keyed 槽位，
+// owner = ToolCallCommonProps & ToolCallPhaseProps，后者的形状是
+//   { phase: 'preparing', block: PreparingToolCall }
+// | { phase: 'start',     block: StartedToolCall }
+// | { phase: 'result',    block: ToolResultNode }
+// 即 phase 与 block 是**并列**的兄弟字段（宿主代码里是 `{...call}` 展开的），
+// 所以这里的 props 必须把 block 声明成可选，不能假设它一定在。
 
 export type ToolCallBlock =
   | { phase: 'start' | 'preparing' | 'end'; isError?: boolean; meta?: unknown; content?: unknown }
   | ({ kind: string; isError?: boolean; meta?: unknown; content?: unknown } & Record<string, unknown>)
 
+/**
+ * 注册到 'tool.call.toolview' 的组件**只拿到 owner 与注入那份 props**，
+ * 没有额外字段。宿主 0.2.x 的实际形状是 `{ phase, block, callId, toolName, ... }`
+ * —— `block` 是兄弟字段而不是独生子，所以要容忍「block 缺席」的宿主：
+ * 早先按 `{ block }` 写死时，宿主一旦只给 phase 不嵌 block，`'kind' in undefined`
+ * 会直接抛错把整张卡片炸掉（不是回落到兜底文本，是渲染异常）。
+ */
 export type ToolCallViewProps = {
   callId: string
   toolName: string
-  block: ToolCallBlock
+  /** 宿主 0.2.x：阶段四态之一，与 block 并列。 */
+  phase?: 'preparing' | 'start' | 'end' | 'result'
+  /** 三态块：准备中 / 已开始 / 已结束。缺席时按「准备中」渲染骨架屏。 */
+  block?: ToolCallBlock
 }
 
 type SlotRegistrationOptions = {

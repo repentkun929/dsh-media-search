@@ -249,7 +249,9 @@ function TranscriptView({ meta }: { meta: Extract<MediaMeta, { kind: 'bili-trans
 }
 
 export function MediaView({ block }: ToolCallViewProps): ReactNode {
-  if (!('kind' in block)) return <Loading />
+  // block 可能缺席（宿主只在对应阶段才带它）——先兜住再判三态，避免
+  // `'kind' in undefined` 抛错把整张卡片炸掉。
+  if (!block || !('kind' in block)) return <Loading />
   if (block.isError) return <Fallback block={block} />
   const meta = mediaMetaFrom(block.meta)
   if (!meta) return <Fallback block={block} />
